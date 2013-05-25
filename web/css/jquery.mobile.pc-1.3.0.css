@@ -1,0 +1,76 @@
+.ui-mobile [data-role=page]{
+    min-height: 100% !important;
+    margin: 0 auto;
+    background: none;
+    font-family: "sans-serif", Helvetica, Arial, sans-serif , Tahoma;
+}
+body{
+    background-color: rgba(255, 102, 0, 0.59);
+}
+.ui-mobile body{
+    height: 98% !important;
+    min-height: 98% !important;
+/*    margin: 1% 0;*/
+/*    background: #FFD700 url('../images/bg.png') repeat-x;*/
+
+}
+[data-role=page]{
+    background-image: none;
+}
+[data-role=header]{
+    width: 980px;
+    margin: 0px auto;
+    background-color: #ce0000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #ce0000 /*{a-bar-background-start}*/), to( #f40000 /*{a-bar-background-end}*/));
+    background-image: -webkit-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
+    background-image: -moz-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
+    background-image: -ms-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
+    background-image: -o-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
+    background-image: linear-gradient( #ff0000 /*{a-bar-background-start}*/, #e00101 /*{a-bar-background-end}*/);
+}
+[data-role=content]{
+    margin: auto;
+    min-height: 100% !important;
+    width: 980px;
+    height: auto;
+    padding: 0px;
+    /*    border-radius: 7px;
+        -webkit-border-radius: 7px 7px 0 0;*/
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.6);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.6);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.6);
+    background-color: #ffffff;
+    /*    background-image: -webkit-gradient(linear, left top, left bottom, from( #FFD700 {a-bar-background-start}), to( #DAA520 {a-bar-background-end}));
+        background-image: -webkit-linear-gradient( #FFD700 {a-bar-background-start}, #DAA520 {a-bar-background-end});
+        background-image: -moz-linear-gradient( #FFD700 {a-bar-background-start}, #DAA520 {a-bar-background-end});
+        background-image: -ms-linear-gradient( #FFD700 {a-bar-background-start}, #DAA520 {a-bar-background-end});
+        background-image: -o-linear-gradient( #FFD700 {a-bar-background-start}, #DAA520 {a-bar-background-end});
+        background-image: linear-gradient( #FFD700 {a-bar-background-start}, #DAA520 {a-bar-background-end});*/
+}
+[data-role=footer]{
+    text-shadow: none;
+    color: #FFDF00;
+    padding: 10px 0px;
+    width: 100%;
+    bottom: 0;
+    position: absolute !important;
+    top: auto !important;
+    z-index: 3;
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.6);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.6);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.6);
+    background-color: #ce0000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #ce0000 /*{a-bar-background-start}*/), to( #f40000 /*{a-bar-background-end}*/));
+    background-image: -webkit-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
+    background-image: -moz-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
+    background-image: -ms-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
+    background-image: -o-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
+    background-image: linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
+}
+.ui-footer .ui-title{
+    font-size: 14px;
+}
+.ui-header .ui-title{
+    width: 100%;
+    height : 90px;
+}

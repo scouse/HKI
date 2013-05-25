@@ -1,0 +1,71 @@
+/* 
+    Document   : index
+    Created on : May 24, 2013, 5:50:42 PM
+    Author     : Note
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.advt{
+    width: 980px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+.span3{
+    width: 300px;
+    height: 465px;
+}
+
+[class *="span"]{
+    float: left;
+    margin-left: 16px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.img_box{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.text{
+    width: 260px;
+    margin: 40px auto;
+}
+
+.bgslide{
+    background-image: url('../images/bgslide.png');
+    width: 980px;
+    height: 450px;
+}
+
+.service{
+    width: 800px;
+    margin: 40px auto;
+}
+
+.service h3{
+    color: #646464;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 27px;
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom: 0px;
+    display: inline-block;
+    margin: 0;
+}
+
+.text h6{
+    color: #646464;
+    margin: 0 0 14px 0;
+    font-size: 18px;
+}
+
+.text p{
+    color: #646464;
+    margin: 0;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: bold;
+}

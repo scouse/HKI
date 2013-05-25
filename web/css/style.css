@@ -1,0 +1,136 @@
+/* 
+    Document   : style
+    Created on : May 23, 2013, 12:06:52 PM
+    Author     : Note
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.ui-link{
+    text-decoration: none;
+    color : #696969;
+    
+}
+
+.language{
+    float: left;
+    white-space: nowrap;
+    margin-left: 270px;
+}
+.language a:link{
+    float: left;
+    white-space: nowrap;
+    cursor: default;
+}
+
+.header{
+    background-image: url('../images/hki.png');
+    background-repeat: no-repeat;
+    width: 980px;
+    height: 130px;
+    margin: 0 auto;
+}
+.ui-bar-a a.ui-link:link , .ui-bar-a a.ui-link:visited {
+    color:#FFDF00;
+}
+.ui-bar-a a.ui-link:hover {
+    color:#d4d4d4;
+}
+
+/* MENU START */
+#menu{
+    background-color: #e00101;
+    text-shadow: none;
+    width: 980px;
+    height: 41px;
+    color: #FFDF00;
+    text-align: center;
+    font-size:15px;
+    margin: 0 auto;
+}
+
+#menu a:link{
+    cursor: pointer;
+}
+
+
+ul#css3menu1,ul#css3menu1 ul{width:980px;
+	margin:0px;list-style:none;padding:0;background-color:#e00101;background-image:url("mainbk.png");background-repeat:repeat;border-width:0px;border-style:solid;border-color:#999999;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;}
+ul#css3menu1 ul{width: auto;border: solid #FFDF00 1px;
+	display:none;position:absolute;left:0;top:100%;-moz-box-shadow:0.7px 0.7px 1px #777777;-webkit-box-shadow:0.7px 0.7px 1px #777777;box-shadow:0.7px 0.7px 1px #777777;background-color:#e00101;background-image:none;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;padding: 0px 10px 0px 10px;}
+ul#css3menu1 li:hover>*{
+	display:block;}
+ul#css3menu1 li{width: 120px;
+	position:relative;display:block;white-space:nowrap;float:left;}
+ul#css3menu1 li:hover{
+	z-index:1;}
+ul#css3menu1{
+	z-index:100;position:relative;display:inline-block;zoom:1;
+	*display:inline;}
+ul#css3menu1>li{
+	margin:0 0 0 1px;}
+* html ul#css3menu1 li a{
+	display:inline-block;}
+ul#css3menu1 ul>li{
+	margin:1px 0 0;}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;}
+ul#css3menu1 a{
+	display:block;vertical-align:middle;text-align:center;text-decoration:none;color:#FFDF00;cursor:default;background-color:#e00101;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none; line-height: 40px;}
+ul#css3menu1 ul li{
+	float:none;}
+ul#css3menu1 ul a{
+	text-align:left;background-color:#e00101;background-image:none;border-width:1px 0 0 0;border-style:solid;border-color:#FFDF00;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;color:#FFDF00;text-decoration:none;}
+ul#css3menu1 ul a.publication{
+	text-align:left;padding:8px 0 0 0;background-color:#e00101;background-image:none;border-width:1px 0 0 0;border-style:solid;border-color:#7a7a7a;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;color:#FFDF00;text-decoration:none;}
+
+ul#css3menu1 li:hover>a,ul#css3menu1 a.pressed{
+	background-color:#e00101;border-style:none;color:#f9f4d9;text-decoration:none;background-image:url("mainbk.png");background-position:0 100px;}
+ul#css3menu1 img{
+	border:none;vertical-align:middle;margin-right:10px;}
+ul#css3menu1 img.over{
+	display:none;}
+ul#css3menu1 li:hover > a img.def{
+	display:none;}
+ul#css3menu1 li:hover > a img.over{
+	display:inline;}
+ul#css3menu1 li a.pressed img.over{
+	display:inline;}
+ul#css3menu1 li a.pressed img.def{
+	display:none;}
+ul#css3menu1 span{
+	display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
+ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li>a.pressed{
+	background-color:#e00101;background-image:none;border-style:solid;border-color:#FFDF00;color:#f9f4d9;text-decoration:none;}
+ul#css3menu1 li.topfirst>a{
+	border-radius:0px 0 0 0px;-moz-border-radius:0px 0 0 0px;-webkit-border-radius:0px;-webkit-border-top-right-radius:0;-webkit-border-bottom-right-radius:0;text-shadow:#000000 0px -1px 1px;}
+ul#css3menu1 li.topfirst:hover>a,ul#css3menu1 li.topfirst>a.pressed{
+	text-shadow:#3d3d3d 0px -1px 1px;}
+ul#css3menu1 li.topmenu>a{
+	text-shadow:#000000 0px -1px 1px;}
+ul#css3menu1 li.topmenu:hover>a,ul#css3menu1 li.topmenu>a.pressed{
+	text-shadow:#3d3d3d 0px -1px 1px;}
+ul#css3menu1 li.toplast>a{
+	border-radius:0 0px 0px 0;-moz-border-radius:0 0px 0px 0;-webkit-border-radius:0;-webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;text-shadow:#000000 0px -1px 1px;}
+ul#css3menu1 li.toplast:hover>a,ul#css3menu1 li.toplast>a.pressed{
+	text-shadow:#3d3d3d 0px -1px 1px;}
+ul#css3menu1 _>li>a{
+	padding:0;}
+ul#css3menu1 li.subfirst>a{
+	border-width:0;border-style:none;padding:0;}
+ul#css3menu1 li.subfirst:hover>a,ul#css3menu1 li.subfirst>a.pressed{
+	border-style:none;}
+
+ul#css3menu1 li.subfirst{
+    font-size:13px;
+    width: 100%;
+}
+ul#css3menu1 li.sub{
+    font-size:13px;
+    width: 100%;
+}
+ul#css3menu1 li.sublast{
+    font-size:13px;
+    width: 100%;
+    padding-right: 10px;
+}
+/* MENU STOP */
