@@ -4,6 +4,10 @@
     font-family: "sans-serif", Helvetica, Arial, sans-serif , Tahoma;
     background: #ffffff url('../images/bghead.png') repeat-x;
 }
+.ui-mobile [data-role=footer]{
+    font-family: "sans-serif", Helvetica, Arial, sans-serif , Tahoma;
+    background: #ffffff url('../images/footer.png') repeat-x;
+}
 body{
     background-color: rgba(255, 102, 0, 0.59);
 }
@@ -57,9 +61,10 @@ body{
         background-image: linear-gradient( #FFD700 {a-bar-background-start}, #DAA520 {a-bar-background-end});*/
 }
 [data-role=footer]{
+    background: #ffffff url('../images/footer.png') repeat-x;
     text-shadow: none;
-    color: #FFDF00;
-    padding: 10px 0px;
+    color: #c20c0c;
+    padding: 15px;
     width: 100%;
     bottom: 0;
     position: absolute !important;
