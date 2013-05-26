@@ -20,7 +20,7 @@
     float: left;
     white-space: nowrap;
     cursor: default;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .header{
@@ -180,7 +180,6 @@
     background-color: #ffffff;
     text-shadow: none;
     width: 980px;
-    height: 40px;
     color: #FFDF00;
     text-align: center;
     font-size:15px;
@@ -191,7 +190,8 @@
     cursor: pointer;
 }
 
-ul#css3menu1,ul#css3menu1 ul{width:980px;border-radius: 10px 10px 0 0;
+ul#css3menu1,ul#css3menu1 ul{
+    width:980px;border-radius: 10px 10px 0 0;
                              -webkit-border-top-left-radius: 10px;
                              -moz-border-radius-topleft: 10px;
                              -webkit-border-top-right-radius: 10px;
@@ -232,7 +232,7 @@ ul#css3menu1 ul>li{
 ul#css3menu1 a:active, ul#css3menu1 a:focus{
     outline-style:none;}
 ul#css3menu1 a{
-    display:block;vertical-align:middle;text-align:center;text-decoration:none;color:#FFDF00;cursor:default;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none; line-height: 40px;}
+    font-size: 13px;height: 35px;display:block;vertical-align:middle;text-align:center;text-decoration:none;color:#FFDF00;cursor:default;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none; line-height: 40px;}
 ul#css3menu1 ul li{
     float:none;}
 ul#css3menu1 ul a{
@@ -279,15 +279,15 @@ ul#css3menu1 li.subfirst:hover>a,ul#css3menu1 li.subfirst>a.pressed{
     border-style:none;}
 
 ul#css3menu1 li.subfirst{
-    font-size:13px;
+    font-size:12px;
     width: 100%;
 }
 ul#css3menu1 li.sub{
-    font-size:13px;
+    font-size:12px;
     width: 100%;
 }
 ul#css3menu1 li.sublast{
-    font-size:13px;
+    font-size:12px;
     width: 100%;
     padding-right: 10px;
 }
