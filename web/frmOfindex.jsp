@@ -15,9 +15,57 @@
     </head>
     <body>
         <div data-role="page">
-            <div data-role="header"><jsp:include page="jsp/header.jsp" /></div>
-            <div id="menu"><jsp:include page="jsp/menu.jsp" /></div>
-            <div data-role="content">
+            <div data-role="header">
+                <jsp:include page="jsp/header.jsp" />
+            </div>
+            <div data-role="content">          
+                <div class="ui-grid-a column">
+                    <div class="ui-block-a column">
+                        <jsp:include page="jsp/columnLeft.jsp" />
+                    </div>
+                    <div class="ui-block-b column">
+                        <div class="advert"></div>
+                        <div class="service">
+                            <div class="h-service"><h3>บริการของเรา</h3></div>
+                                <div class="span3 featurefirst">
+                                    <div class="img_box"><img src="images/img_box1.png"/></div>
+                                    <div class="text"><h6>บริการ ฟรี!</h6>
+                                        <p>- ฟรี!! ค่าบริการดูงาน</p>
+                                        <p>- ฟรี!! ค่าบริการให้คำปรึกษา</p>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ไม่ว่าคุณลูกค้าจะทำการขนย้ายแค่หนึ่งช่วงตึกหรือข้ามทวีป</p>
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เอชเคไอ ยินดีให้บริการคุณด้วยความใส่ใจที่ไม่มีใครเหมือน</p>
+                                    </div>
+                                </div>
+                                <div class="span3 feature">
+                                    <div class="img_box"><img src="images/img_box2.png"/></div>
+                                    <div class="text">
+                                        <h6>บริการขนย้าย</h6>
+                                        <p>- ขนย้ายระหว่างประเทศ</p>
+                                        <p>- ขนย้ายในประเทศ</p>
+                                        <p>- Door to door</p>
+                                        <p>- Door to port</p>
+                                    </div>
+                                </div>
+                                <div class="span3 featurelast">
+                                    <div class="img_box"><img src="images/img_box3.png"/></div>
+                                    <div class="text">
+                                        <h6>บริการบรรจุหีบห่อและขนย้าย</h6>
+                                        <p>- เครื่องใช้ภายในบ้าน</p>
+                                        <p>- เครื่องใช้สำนักงาน และโรงงาน</p>
+                                        <p>- เครื่องใช้ภายในบ้าน</p>
+                                        <p>บริการทั้งภายในประเทศและต่างประเทศ</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer"><jsp:include page="jsp/footer.jsp" /></div>
+        </div>
+
+    </body>
+</html>
+<!--            <div data-role="content">
                 <div class="bgslide">
                     <div id="nslide">
                         <a href="#"><img src="images/slideshow/slide1.png" /></a>
@@ -58,9 +106,4 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div data-role="footer"><jsp:include page="jsp/footer.jsp" /></div>
-        </div>
-
-    </body>
-</html>
+            </div>-->

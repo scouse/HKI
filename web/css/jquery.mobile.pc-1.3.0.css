@@ -1,8 +1,8 @@
 .ui-mobile [data-role=page]{
     min-height: 100% !important;
     margin: 0 auto;
-    background: none;
     font-family: "sans-serif", Helvetica, Arial, sans-serif , Tahoma;
+    background: #ffffff url('../images/bghead.png') repeat-x;
 }
 body{
     background-color: rgba(255, 102, 0, 0.59);
@@ -15,18 +15,26 @@ body{
 
 }
 [data-role=page]{
-    background-image: none;
+    background: #ffffff url('../images/bghead.png') repeat-x;
 }
 [data-role=header]{
     width: 980px;
-    margin: 0px auto;
-    background-color: #ce0000;
-    background-image: -webkit-gradient(linear, left top, left bottom, from( #ce0000 /*{a-bar-background-start}*/), to( #f40000 /*{a-bar-background-end}*/));
-    background-image: -webkit-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
-    background-image: -moz-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
-    background-image: -ms-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
-    background-image: -o-linear-gradient( #ce0000 /*{a-bar-background-start}*/, #f40000 /*{a-bar-background-end}*/);
-    background-image: linear-gradient( #ff0000 /*{a-bar-background-start}*/, #e00101 /*{a-bar-background-end}*/);
+    margin: 20px auto 10px auto;
+    padding-bottom: 5px;
+    border: none;
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #ffffff /*{a-bar-background-start}*/), to( #ffffff /*{a-bar-background-end}*/));
+    background-image: -webkit-linear-gradient( #ffffff /*{a-bar-background-start}*/, #ffffff /*{a-bar-background-end}*/);
+    background-image: -moz-linear-gradient( #ffffff /*{a-bar-background-start}*/, #ffffff /*{a-bar-background-end}*/);
+    background-image: -ms-linear-gradient( #ffffff /*{a-bar-background-start}*/, #ffffff /*{a-bar-background-end}*/);
+    background-image: -o-linear-gradient( #ffffff /*{a-bar-background-start}*/, #ffffff /*{a-bar-background-end}*/);
+    background-image: linear-gradient( #c20c0c /*{a-bar-background-start}*/, #a90000 /*{a-bar-background-end}*/);
+    box-shadow:0 0 7px rgba(0, 0, 0, .2);
+    -moz-box-shadow:0 0 7px rgba(0, 0, 0, .2);
+    -webkit-box-shadow:0 0 7px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 [data-role=content]{
     margin: auto;
@@ -34,13 +42,14 @@ body{
     width: 980px;
     height: auto;
     padding: 0px;
+    padding-bottom: 100px;
     /*    border-radius: 7px;
-        -webkit-border-radius: 7px 7px 0 0;*/
+        -webkit-border-radius: 7px 7px 0 0;
     -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.6);
     -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.6);
     box-shadow: 0px 0px 5px rgba(0,0,0,.6);
     background-color: #ffffff;
-    /*    background-image: -webkit-gradient(linear, left top, left bottom, from( #FFD700 {a-bar-background-start}), to( #DAA520 {a-bar-background-end}));
+        background-image: -webkit-gradient(linear, left top, left bottom, from( #FFD700 {a-bar-background-start}), to( #DAA520 {a-bar-background-end}));
         background-image: -webkit-linear-gradient( #FFD700 {a-bar-background-start}, #DAA520 {a-bar-background-end});
         background-image: -moz-linear-gradient( #FFD700 {a-bar-background-start}, #DAA520 {a-bar-background-end});
         background-image: -ms-linear-gradient( #FFD700 {a-bar-background-start}, #DAA520 {a-bar-background-end});
