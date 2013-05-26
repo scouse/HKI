@@ -213,8 +213,11 @@ ul#css3menu1 ul{width: auto;border: solid #FFDF00 1px;
                 display:none;position:absolute;left:0;top:100%;-moz-box-shadow:0.7px 0.7px 1px #777777;-webkit-box-shadow:0.7px 0.7px 1px #777777;box-shadow:0.7px 0.7px 1px #777777;background-color:#c20c0c;background-image:none;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;padding: 0px 10px 0px 10px;}
 ul#css3menu1 li:hover>*{
     display:block;}
-ul#css3menu1 li{width: 100px;margin-left: 20px;
-                position:relative;display:block;white-space:nowrap;float:left;}
+ul#css3menu1 li{
+    /*width: 100px;*/
+    padding: 0 5px;
+    /*margin-left: 20px;*/
+    position:relative;display:block;white-space:nowrap;float:left;}
 ul#css3menu1 li:hover{
     z-index:1;}
 ul#css3menu1{
