@@ -12,7 +12,7 @@
         <div class="ui-block-a login"></div>
         <div class="ui-block-b login">
             <div class="frmemail">
-                <input type="text" id="email" placeholder="อีเมล์" value="" aria-required="1" placeholder aria-label="First Name">
+                <input type="text" id="email" placeholder="อีเมล" value="" aria-required="1" placeholder aria-label="First Name">
             </div>
             <div class="frmpass">
                 <input type="password" id="pass" placeholder="รหัสผ่าน" value="">
@@ -52,7 +52,7 @@
         <div class="ui-block-a login"></div>
         <div class="ui-block-b login">
             <div class="frmemail">
-            <div class="text-email">กรอกอีเมล์เพื่อรับข่าวสาร</div>
+            <div class="text-email">กรอกอีเมลเพื่อรับข่าวสาร</div>
                 <input type="text" id="email" placeholder="อีเมล์" value="" aria-required="1" placeholder aria-label="First Name">
             </div>
             <div class="btlogin">
