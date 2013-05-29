@@ -17,6 +17,13 @@ IncludeCSS('css/jquery.nplugins-0.0.1.css');
 IncludeCSS('css/style.css');
 IncludeCSS('css/index.css');
 
-window.onload = function(){
-    $('#nslide').nSlide(720,350);
-}
+IncludeJavaScript('../js/jquery-1.8.3.min.js');
+IncludeJavaScript('../js/jquery.mobile-1.3.0.js');
+IncludeJavaScript('../js/jquery.nplugins-0.0.1.js');
+IncludeJavaScript('../js/jquery.html5-placeholder.js');
+
+IncludeCSS('../css/jquery.mobile-1.3.0.css');
+IncludeCSS('../css/jquery.mobile.pc-1.3.0.css');
+IncludeCSS('../css/jquery.nplugins-0.0.1.css');
+IncludeCSS('../css/style.css');
+IncludeCSS('../css/index.css');

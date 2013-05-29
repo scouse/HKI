@@ -5,8 +5,8 @@
         <servlet-class>servlet.index</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>indexeng</servlet-name>
-        <servlet-class>servlet.indexeng</servlet-class>
+        <servlet-name>en_index</servlet-name>
+        <servlet-class>servlet.en_index</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>aboutus</servlet-name>
@@ -17,8 +17,8 @@
         <url-pattern>/index</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>indexeng</servlet-name>
-        <url-pattern>/indexeng</url-pattern>
+        <servlet-name>en_index</servlet-name>
+        <url-pattern>/en/index</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>aboutus</servlet-name>

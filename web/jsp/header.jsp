@@ -36,6 +36,6 @@
             </ul>
         </li>   
 
-        <div class="language"><a href="indexeng" class="lang" rel="external"><img src="images/eng_flag.png"/></a></div>
+        <div class="language"><a href="en/index" class="lang" rel="external"><img src="images/eng_flag.png"/></a></div>
     </ul>
 <div class="header"></div>

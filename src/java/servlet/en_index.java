@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Note
  */
-public class indexeng extends HttpServlet {
+public class en_index extends HttpServlet {
 
     /**
      * Processes requests for both HTTP
@@ -62,7 +62,7 @@ public class indexeng extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String page = "frmOfindex-eng.jsp";
+        String page = "frmOfindex.jsp";
             RequestDispatcher view = request.getRequestDispatcher(page);
             view.forward(request,response);
        
