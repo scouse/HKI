@@ -19,10 +19,10 @@
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
         <li class="topmenu"><a class="pressedservice" href="" onclick="false" >บริการ</a>
             <ul class="submenu">
-                <li class="subfirst"><a href="" target="_blank" rel="external">บริการบรรจุหีบห่อและขนย้าย</a></li>
-                <li class="sub"><a href="" rel="external">บริการทำลังไม้พร้อมขนย้ายเครื่องจักร</a></li>
-                <li class="sub"><a href="" rel="external">บริการรับฝากสินค้า</a></li>
-                <li class="sublast"><a href="" rel="external">บริการขนส่งและจัดวางในงานแสดงสินค้า   </a></li>
+                <li class="subfirst"><a href="services" rel="external">บริการบรรจุหีบห่อและขนย้าย</a></li>
+                <li class="sub"><a href="services" rel="external">บริการทำลังไม้พร้อมขนย้ายเครื่องจักร</a></li>
+                <li class="sub"><a href="services" rel="external">บริการรับฝากสินค้า</a></li>
+                <li class="sublast"><a href="services" rel="external">บริการขนส่งและจัดวางในงานแสดงสินค้า   </a></li>
             </ul>
         </li>
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>

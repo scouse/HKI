@@ -57,6 +57,7 @@
 }
 .column.ui-grid-a .column.ui-block-b{
     width:80%;
+    padding-bottom: 5px;
 }
 .frmcolL , .frmcolL2 , .frmcolL3{
     width: 100%;

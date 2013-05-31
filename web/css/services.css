@@ -1,6 +1,6 @@
 /* 
-    Document   : aboutus
-    Created on : May 25, 2013, 10:24:30 AM
+    Document   : service
+    Created on : May 30, 2013, 4:17:36 PM
     Author     : Note
     Description:
         Purpose of the stylesheet follows.
@@ -8,7 +8,7 @@
 
 .container{
     width: 99%;
-    height: 720px;
+    height: 1500px;
     margin-top: 5px;
     margin-left: 5px;
     color:#c20c0c;
@@ -29,29 +29,66 @@
     -webkit-box-shadow: 0px 0px 5px #E1E1E1;
     box-shadow: 0px 0px 5px #E1E1E1;
 }
-.about{
-    width: 51%;
-    height: 180px;
+.services{
+    width: 96%;
+    margin-top: 10px;
     margin-left: 15px;
     text-shadow: none;
     float: left;
 }
-.about h4 , .vision h4{
+.services-detail{
+    width: 54%;
+    margin-left: 15px;
+    text-shadow: none;
+    float: left;
+}
+.services h4 , .services2 h4{
+    font-size: 15px;
     margin-top: 5px;
     line-height: 40px;
     border-bottom: solid #c20c0c 1px;
 }
-.about p , .vision p{
+.services p {
     line-height: 20px;
-    font-size: 15px;
+    font-size: 14px;
 }
-.container-image{
-    margin-top: 20px;
+.services2 p{
+    line-height: 25px;
+    font-size: 14px;
+}
+.services-image{
+    margin-top: 30px;
     float: left;
-    margin-left: 30px;
+    margin-left: 10px;
     width: 320px;
 }
-.container-image img{
+.services-image img{
+    border-radius: 5px 40px 5px 40px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-left-radius: 40px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 40px;
+    -moz-box-shadow: 0px 0px 5px #E1E1E1;
+    -webkit-box-shadow: 0px 0px 5px #E1E1E1;
+    box-shadow: 0px 0px 5px #E1E1E1;
+}
+.services2-image{
+    margin-top: 30px;
+    float: left;
+    margin-left: 20px;
+    width: 320px;
+}
+.services2{
+    width: 53%;
+    margin-left: 15px;
+    text-shadow: none;
+    float: left;
+}
+.services2-image img{
     border-radius: 5px 40px 5px 40px;
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 40px;
@@ -66,32 +103,7 @@
     box-shadow: 0px 0px 5px #E1E1E1;
 }
 .block{
-    height: 20px;
-}
-.container2-image{
-    margin-top: 20px;
-    float: left;
-    margin-left: 15px;
-    width: 320px;
-}
-.vision{
-    margin-top: 50px;
-    width: 51%;
-    margin-left: 15px;
-    text-shadow: none;
-    float: left;
-}
-.container2-image img{
-    border-radius: 5px 40px 5px 40px;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 40px;
-    -webkit-border-bottom-left-radius: 40px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-radius-topright: 40px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -moz-border-radius-bottomleft: 40px;
-    -moz-box-shadow: 0px 0px 5px #E1E1E1;
-    -webkit-box-shadow: 0px 0px 5px #E1E1E1;
-    box-shadow: 0px 0px 5px #E1E1E1;
+    clear: both;
+    width: 100%;
+    height: 50px;
 }
