@@ -16,3 +16,11 @@ IncludeCSS('css/jquery.nplugins-0.0.1.css');
 IncludeCSS('css/style.css');
 IncludeCSS('css/aboutus.css');
 
+window.onload = function(){
+    $("#aboutus").click(function () {
+      $('.about').focus();
+    });
+    $("#vision").click(function () {
+      $("#vision2").onfocus();
+    });
+}

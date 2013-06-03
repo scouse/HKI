@@ -12,8 +12,8 @@
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
         <li class="topmenu"><a class="pressedabout" onclick="false" ><span>ข้อมูลบริษัท</span></a>
             <ul class="submenu">
-                <li class="subfirst"><a href="aboutus" rel="external">เกี่ยวกับบริษัท</a></li>
-                <li class="sublast"><a href="aboutus" rel="external">วิสัยทัศน์และพันธกิจ</a></li>
+                <li class="subfirst"><a href="aboutus" rel="external" id="aboutus">เกี่ยวกับบริษัท</a></li>
+                <li class="sublast"><a href="aboutus" rel="external" id="vision">วิสัยทัศน์และพันธกิจ</a></li>
             </ul>
         </li>
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
@@ -26,13 +26,13 @@
             </ul>
         </li>
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
-        <li class="topmenu"><a class="pressedgallery" href="" rel="external">รูปภาพ</a></li>
+        <li class="topmenu"><a class="pressedgallery" href="gallery" rel="external">รูปภาพ</a></li>
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
         <li class="toplast"><a class="pressedcontact" href="" onclick="false" >ติดต่อบริษัท</a>
             <ul class="submenu">
-                <li class="subfirst"><a href="" target="_blank" rel="external">ข้อมูลติดต่อบริษัท</a></li>
-                <li class="sub"><a href="" rel="external">ขอใบเสนอราคา</a></li>
-                <li class="sublast"><a href="" rel="external">แสดงความคิดเห็นข้อเสนอแนะ</a></li>
+                <li class="subfirst"><a href="contact" rel="external" id="info">ข้อมูลติดต่อบริษัท</a></li>
+                <li class="sub"><a href="contact" rel="external" id="bid">ขอใบเสนอราคา</a></li>
+                <li class="sublast"><a href="contact" rel="external" id="comment">แสดงความคิดเห็นข้อเสนอแนะ</a></li>
             </ul>
         </li>   
 

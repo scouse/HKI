@@ -39,7 +39,7 @@
                             <div class="container2-image">
                                 <img src="images/container2-image.png"/>
                             </div>
-                            <div class="vision">
+                            <div class="vision" id="vision2"SS>
                                 <h4>วิสัยทัศน์</h4>
                                 <p>เป็นผู้นำในการให้บริการด้านโลจิสติกส์ ระดับแนวหน้าของภูมิภาค</p>
                                 <h4>พันธกิจ</h4>

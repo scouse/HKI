@@ -16,6 +16,14 @@
         <servlet-name>services</servlet-name>
         <servlet-class>servlet.services</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>gallery</servlet-name>
+        <servlet-class>servlet.gallery</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>contact</servlet-name>
+        <servlet-class>servlet.contact</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>index</servlet-name>
         <url-pattern>/index</url-pattern>
@@ -31,6 +39,14 @@
     <servlet-mapping>
         <servlet-name>services</servlet-name>
         <url-pattern>/services</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>gallery</servlet-name>
+        <url-pattern>/gallery</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>contact</servlet-name>
+        <url-pattern>/contact</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
