@@ -30,7 +30,7 @@ IncludeCSS('../css/style.css');
 IncludeCSS('../css/contact.css');
 
 window.onload = function(){
-    $(".container").show();
+        $("#container").hide();
         $(".container2").hide();
         $(".container3").hide();
 }
