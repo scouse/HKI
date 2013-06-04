@@ -43,5 +43,9 @@ window.onload = function(){
         setTimeout(function(){
             $('#servicesfourth')[0].scrollIntoView(true);
         }, 100);
+    }if(query === "fifth"){
+        setTimeout(function(){
+            $('#servicesfifth')[0].scrollIntoView(true);
+        }, 100);
     }
 }

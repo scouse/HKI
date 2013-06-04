@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Note
  */
-public class en_index extends HttpServlet {
+public class en_gallery extends HttpServlet {
 
     /**
      * Processes requests for both HTTP
@@ -38,10 +38,10 @@ public class en_index extends HttpServlet {
              */
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet indexen</title>");            
+            out.println("<title>Servlet en_gallery</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet indexen at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet en_gallery at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         } finally {            
@@ -62,10 +62,9 @@ public class en_index extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-            String page = "frmOfindex.jsp";
+            String page = "frmOfgallery.jsp";
             RequestDispatcher view = request.getRequestDispatcher(page);
             view.forward(request,response);
-       
     }
 
     /**
@@ -80,7 +79,7 @@ public class en_index extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-             processRequest(request, response);
+        processRequest(request, response);
     }
 
     /**

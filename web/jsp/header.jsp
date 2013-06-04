@@ -19,10 +19,11 @@
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
         <li class="topmenu"><a class="pressedservice" href="" onclick="false" >บริการ</a>
             <ul class="submenu">
-                <li class="subfirst"><a href="services?first" rel="external">บริการบรรจุหีบห่อและขนย้าย</a></li>
-                <li class="sub"><a href="services?second" rel="external">บริการทำลังไม้พร้อมขนย้ายเครื่องจักร</a></li>
-                <li class="sub"><a href="services?third" rel="external">บริการรับฝากสินค้า</a></li>
-                <li class="sublast"><a href="services?fourth" rel="external">บริการขนส่งและจัดวางในงานแสดงสินค้า   </a></li>
+                <li class="subfirst"><a href="services?first" rel="external">บริการขนย้ายเครื่องใช้ภายในบ้านทั้งภายในประเทศและต่างประเทศ</a></li>
+                <li class="sub"><a href="services?second" rel="external">บริการบรรจุหีบห่อและขนย้ายเครื่องใช้ในสำนักงานและโรงาน</a></li>
+                <li class="sub"><a href="services?third" rel="external">บริการทำลังไม้พร้อมขนย้ายเครื่องจักร</a></li>
+                <li class="sub"><a href="services?fourth" rel="external">บริการรับฝากสินค้า</a></li>
+                <li class="sublast"><a href="services?fifth" rel="external">บริการขนส่งและจัดวางในงานแสดงสินค้า   </a></li>
             </ul>
         </li>
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
@@ -36,6 +37,6 @@
             </ul>
         </li>   
 
-        <div class="language"><a href="en/index" class="lang" rel="external"><img src="images/eng_flag.png"/></a></div>
+        <div class="language"><a href="" class="lang" rel="external" id="en"><img src="images/eng_flag.png"/></a></div>
     </ul>
 <div class="header"></div>

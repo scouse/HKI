@@ -5,6 +5,9 @@
     Description:
         Purpose of the stylesheet follows.
 */
+.ui-checkbox-on .ui-icon, .ui-radio-on .ui-icon{
+    background-color: #FFDF00;
+}
 .ui-input-text.ui-focus{
     moz-box-shadow: 0px 0px 12px rgba(239,211,31,1);
     -webkit-box-shadow: 0px 0px 12px rgba(239,211,31,1);
@@ -12,6 +15,10 @@
 }
 .ui-btn-up-c{
     color: #c20c0c;
+}
+.ui-btn-hover-c:visited, .ui-btn-hover-c:hover, .ui-btn-hover-c a.ui-link-inherit{
+    color: #c20c0c;
+    text-shadow: none;
 }
 .ui-btn-active {
     border: solid 1px #d4d4d4;
@@ -171,6 +178,7 @@
     font-size: 14px;
     line-height: 25px;
     white-space: normal;
+    width: 190px;
 }
 /* ColumnLeft END */
 
@@ -211,6 +219,19 @@
 }
 
 /* END BUTTON */
+
+.ui-body-c .ui-link{
+    font-size: 14px;
+    font-weight: normal;
+}
+.ui-body-c .ui-link:visited {
+    color: #FFDF00;
+    font-size: 14px;
+    font-weight: normal;
+}
+.ui-body-c .ui-link:hover{
+    color: #ffffff;
+}
 
 /* MENU START */
 #menu{

@@ -29,6 +29,10 @@ IncludeCSS('../css/style.css');
 IncludeCSS('../css/contact.css');
 
 window.onload = function(){
+    contact();
+    language();
+}
+function contact(){
     var query = window.location.search.substring(1);
     if(query === ""){
             $('#quotation').hide();
@@ -50,4 +54,10 @@ window.onload = function(){
             $('#comments').show();
         }, 200);
     }
+}
+
+function language(){
+    $('#en').click(function(){
+        window.location = 'http://localhost:8084/HKI/en/contact';
+    });
 }

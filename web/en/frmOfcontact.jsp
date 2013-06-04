@@ -140,7 +140,7 @@
                                             <label for="checkbox-v-2d">บริการรับฝากสินค้า</label>
                                             <input type="checkbox" name="checkbox-v-2e" id="checkbox-v-2e">
                                             <label for="checkbox-v-2e">บริการขนส่ง และจัดวางสินค้าในงานแสดงสินค้า</label>
-                                            <input type="checkbox" name="checkbox-v-2f" id="checkbox-v-2f" class="other">
+                                            <input type="checkbox" name="checkbox-v-2f" id="checkbox-v-2f">
                                             <label for="checkbox-v-2f">อื่น ๆ</label><br/>
                                         </fieldset>
                                     </form>

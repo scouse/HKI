@@ -34,10 +34,10 @@
         <div class="ui-block-b login">
             <div class="box5px"></div>
             <div class="box5px"></div>
-            <div class="service-CL">&nbsp;- บริการบรรจุหีบห่อและขนย้าย</div>
-            <div class="service-CL">&nbsp;- บริการทำลังไม้พร้อมขนย้ายเครื่องจักร</div>
-            <div class="service-CL">&nbsp;- บริการรับฝากสินค้า</div>
-            <div class="service-CL">&nbsp;- บริการขนส่งและจัดวางในงานแสดงสินค้า</div>
+            <div class="service-CL"><a href="services?first" rel="external">&nbsp;- บริการบรรจุหีบห่อและขนย้าย</a></div>
+            <div class="service-CL"><a href="services?second" rel="external">&nbsp;- บริการทำลังไม้พร้อมขนย้ายเครื่องจักร</a></div>
+            <div class="service-CL"><a href="services?third" rel="external">&nbsp;- บริการรับฝากสินค้า</a></div>
+            <div class="service-CL"><a href="services?fourth" rel="external">&nbsp;- บริการขนส่งและจัดวางในงานแสดงสินค้า</a></div>
             <div class="box5px"></div>
         </div>
         <div class="ui-block-c login"></div>

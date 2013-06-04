@@ -24,6 +24,22 @@
         <servlet-name>contact</servlet-name>
         <servlet-class>servlet.contact</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>en_aboutus</servlet-name>
+        <servlet-class>servlet.en_aboutus</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>en_services</servlet-name>
+        <servlet-class>servlet.en_services</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>en_gallery</servlet-name>
+        <servlet-class>servlet.en_gallery</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>en_contact</servlet-name>
+        <servlet-class>servlet.en_contact</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>index</servlet-name>
         <url-pattern>/index</url-pattern>
@@ -47,6 +63,22 @@
     <servlet-mapping>
         <servlet-name>contact</servlet-name>
         <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>en_aboutus</servlet-name>
+        <url-pattern>/en/aboutus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>en_services</servlet-name>
+        <url-pattern>/en/services</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>en_gallery</servlet-name>
+        <url-pattern>/en/gallery</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>en_contact</servlet-name>
+        <url-pattern>/en/contact</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
