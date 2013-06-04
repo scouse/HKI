@@ -17,10 +17,10 @@ IncludeCSS('css/style.css');
 IncludeCSS('css/aboutus.css');
 
 window.onload = function(){
-    $("#aboutus").click(function () {
-      $('.about').focus();
-    });
-    $("#vision").click(function () {
-      $("#vision2").onfocus();
-    });
+    var query = window.location.search.substring(1);
+    if(query === "vision"){
+        setTimeout(function(){
+            $('#vision2')[0].scrollIntoView(true);
+        }, 100);
+    }
 }

@@ -15,11 +15,11 @@
         <title>HKI Worldwide Movers Co.,Ltd.</title>
     </head>
     <body>
-        <div data-role="page">
+        <div data-role="page" >
             <div data-role="header">
                 <jsp:include page="jsp/header.jsp" />
             </div>
-            <div data-role="content">          
+            <div data-role="content" >          
                 <div class="ui-grid-a column">
                     <div class="ui-block-a column">
                         <jsp:include page="jsp/columnLeft.jsp" />

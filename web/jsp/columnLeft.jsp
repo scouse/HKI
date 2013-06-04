@@ -12,13 +12,13 @@
         <div class="ui-block-a login"></div>
         <div class="ui-block-b login">
             <div class="frmemail">
-                <input type="text" id="email" placeholder="อีเมล" value="" aria-required="1" placeholder aria-label="First Name">
+                <input type="text" id="email" placeholder="อีเมลล์" value="" aria-required="1" placeholder aria-label="First Name">
             </div>
             <div class="frmpass">
                 <input type="password" id="pass" placeholder="รหัสผ่าน" value="">
             </div>
             <div class="btlogin">
-                <input type="button" id="login" value="เข้าสู่ระบบ" data-theme="b" data-mini="true">
+                <input type="button" id="login" value="เข้าสู่ระบบ" data-mini="true" data-theme="b">
             </div>
         </div>
         <div class="ui-block-c login"></div>
@@ -53,7 +53,7 @@
         <div class="ui-block-b login">
             <div class="frmemail">
             <div class="text-email">กรอกอีเมลเพื่อรับข่าวสาร</div>
-                <input type="text" id="email" placeholder="อีเมล์" value="" aria-required="1" placeholder aria-label="First Name">
+                <input type="text" id="email" placeholder="อีเมลล์" value="" aria-required="1" placeholder aria-label="First Name">
             </div>
             <div class="btlogin">
                 <input type="button" id="receive" value="รับข่าวสาร" data-theme="b" data-mini="true">

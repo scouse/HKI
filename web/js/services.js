@@ -27,3 +27,21 @@ IncludeCSS('../css/jquery.mobile.pc-1.3.0.css');
 IncludeCSS('../css/jquery.nplugins-0.0.1.css');
 IncludeCSS('../css/style.css');
 IncludeCSS('../css/services.css');
+
+window.onload = function(){
+    var query = window.location.search.substring(1);
+    if(query === "second"){
+        setTimeout(function(){
+            $('#servicessecond')[0].scrollIntoView(true);
+        }, 100);
+    }
+    if(query === "third"){
+        setTimeout(function(){
+            $('#servicesthird')[0].scrollIntoView(true);
+        }, 100);
+    }if(query === "fourth"){
+        setTimeout(function(){
+            $('#servicesfourth')[0].scrollIntoView(true);
+        }, 100);
+    }
+}

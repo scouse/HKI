@@ -13,16 +13,16 @@
         <li class="topmenu"><a class="pressedabout" onclick="false" ><span>ข้อมูลบริษัท</span></a>
             <ul class="submenu">
                 <li class="subfirst"><a href="aboutus" rel="external" id="aboutus">เกี่ยวกับบริษัท</a></li>
-                <li class="sublast"><a href="aboutus" rel="external" id="vision">วิสัยทัศน์และพันธกิจ</a></li>
+                <li class="sublast"><a href="aboutus?vision" rel="external" id="vision">วิสัยทัศน์และพันธกิจ</a></li>
             </ul>
         </li>
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
         <li class="topmenu"><a class="pressedservice" href="" onclick="false" >บริการ</a>
             <ul class="submenu">
-                <li class="subfirst"><a href="services" rel="external">บริการบรรจุหีบห่อและขนย้าย</a></li>
-                <li class="sub"><a href="services" rel="external">บริการทำลังไม้พร้อมขนย้ายเครื่องจักร</a></li>
-                <li class="sub"><a href="services" rel="external">บริการรับฝากสินค้า</a></li>
-                <li class="sublast"><a href="services" rel="external">บริการขนส่งและจัดวางในงานแสดงสินค้า   </a></li>
+                <li class="subfirst"><a href="services?first" rel="external">บริการบรรจุหีบห่อและขนย้าย</a></li>
+                <li class="sub"><a href="services?second" rel="external">บริการทำลังไม้พร้อมขนย้ายเครื่องจักร</a></li>
+                <li class="sub"><a href="services?third" rel="external">บริการรับฝากสินค้า</a></li>
+                <li class="sublast"><a href="services?fourth" rel="external">บริการขนส่งและจัดวางในงานแสดงสินค้า   </a></li>
             </ul>
         </li>
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
@@ -31,8 +31,8 @@
         <li class="toplast"><a class="pressedcontact" href="" onclick="false" >ติดต่อบริษัท</a>
             <ul class="submenu">
                 <li class="subfirst"><a href="contact" rel="external" id="info">ข้อมูลติดต่อบริษัท</a></li>
-                <li class="sub"><a href="contact" rel="external" id="bid">ขอใบเสนอราคา</a></li>
-                <li class="sublast"><a href="contact" rel="external" id="comment">แสดงความคิดเห็นข้อเสนอแนะ</a></li>
+                <li class="sub"><a href="contact?quotation" rel="external" id="bid">ขอใบเสนอราคา</a></li>
+                <li class="sublast"><a href="contact?comment" rel="external" id="comment">แสดงความคิดเห็นข้อเสนอแนะ</a></li>
             </ul>
         </li>   
 

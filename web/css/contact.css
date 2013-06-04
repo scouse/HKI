@@ -5,6 +5,9 @@
     Description:
         Purpose of the stylesheet follows.
 */
+#contact, #comment , #quotation{
+    display: none;
+}
 
 .container, .container2, .container3{
     width: 99%;

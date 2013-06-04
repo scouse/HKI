@@ -24,7 +24,7 @@
                         <jsp:include page="jsp/columnLeft.jsp" />
                     </div>
                     <div class="ui-block-b column">
-                        <div class="container" id="container">
+                        <div class="container" id="contact">
                             <div class="contact">ข้อมูลติดต่อบริษัท</div>
                                 
                             <div class="ui-grid-c formcontact">
@@ -84,7 +84,7 @@
                                 <div class="ui-block-f info"></div>
                             </div>
                         </div>
-                        <div class="container2">
+                        <div class="container2" id="quotation">
                             <div class="contact">ใบเสนอราคา</div>
                             <div class="ui-grid-c bid">
                                 <div class="ui-block-a"></div>
@@ -184,7 +184,7 @@
                                 <div class="ui-block-f info"></div>
                             </div>
                         </div>
-                        <div class="container3">
+                        <div class="container3" id="comments">
                             <div class="contact">แสดงความคิดเห็นและข้อเสนอแนะ</div>
                             <div class="ui-grid-c bid">
 
