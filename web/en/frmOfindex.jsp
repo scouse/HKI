@@ -11,7 +11,7 @@
         <link rel="icon" type="image/x-icon" href="">
         <meta http-equiv="X-UA-Compatible" content="IE=9" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script type="text/javascript" src="../js/index.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
         <title>HKI Worldwide Movers Co.,Ltd.</title>
     </head>
     <body>

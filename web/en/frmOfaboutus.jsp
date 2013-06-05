@@ -10,7 +10,7 @@
     <head>
         <link rel="icon" type="image/x-icon" href="">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script type="text/javascript" src="../js/aboutus.js"></script>
+        <script type="text/javascript" src="js/aboutus.js"></script>
         <title>HKI Worldwide Movers Co.,Ltd.</title>
     </head>
     <body>

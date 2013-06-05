@@ -34,10 +34,10 @@
         <div class="ui-block-b login">
             <div class="box5px"></div>
             <div class="box5px"></div>
-            <div class="service-CL">&nbsp;- Original passport</div>
-            <div class="service-CL">&nbsp;- Original work permit</div>
-            <div class="service-CL">&nbsp;- Original Bill of Lading</div>
-            <div class="service-CL">&nbsp;- Authorized and customers entry form (Prepared by HKI)</div>
+            <div class="service-CL"><a href="services?first" rel="external">&nbsp;- Domestic and International household goods,Relocation</a></div>
+            <div class="service-CL"><a href="services?second" rel="external">&nbsp;- Industrial machinery moving and crating</a></div>
+            <div class="service-CL"><a href="services?third" rel="external">&nbsp;- Warehouse storage</a></div>
+            <div class="service-CL"><a href="services?fourth" rel="external">&nbsp;- Exhibition handling service</a></div>
             <div class="box5px"></div>
         </div>
         <div class="ui-block-c login"></div>

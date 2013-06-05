@@ -34,9 +34,8 @@
             <li class="subfirst"><a href="contact" rel="external">Contact information</a></li>
             <li class="sub"><a href="contact?quotation" rel="external">Request for quotation</a></li>
             <li class="sub"><a href="contact?comment" rel="external">comments & Complaints</a></li>
-            <li class="sublast"><a href="contact?exhibition" rel="external">Exhibition handling service.</a></li>
         </ul>
     </li>
-    <div class="language"><a href="../index" class="lang" rel="external"><img src="../images/tha_flag.png"/></a></div>
+    <div class="language"><a href="" id="th" class="lang" rel="external"><img src="../images/tha_flag.png"/></a></div>
 </ul>
 <div class="header"></div>
