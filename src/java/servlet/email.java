@@ -4,10 +4,13 @@
  */
 package servlet;
 
-import Class.SendEmail;
+import Class.Connect;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.SQLException;
 import java.util.Properties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
@@ -21,7 +24,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Note
  */
-public class contact extends HttpServlet {
+public class email extends HttpServlet {
 
     /**
      * Processes requests for both HTTP
@@ -43,10 +46,10 @@ public class contact extends HttpServlet {
              */
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet contact</title>");
+            out.println("<title>Servlet email</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet contact at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet email at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         } finally {
@@ -67,9 +70,7 @@ public class contact extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String page = "frmOfcontact.jsp";
-        RequestDispatcher view = request.getRequestDispatcher(page);
-        view.forward(request, response);
+        processRequest(request, response);
     }
 
     /**
@@ -84,7 +85,9 @@ public class contact extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
+        PrintWriter out = response.getWriter();
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.socketFactory.port", "465");
@@ -102,62 +105,33 @@ public class contact extends HttpServlet {
                 });
 
         try {
+            Connect con = new Connect();
+            con.connect();
+
+            String insert = "insert into email values (00001,'" + request.getParameter("email") + "',1)";
+
+            con.insert(insert);
+            
+            //Email Alert
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress("hkiworldwidemover@gmail.com"));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("tiwa.raku@gmail.com"));
-
-            if ("contact".equals(request.getParameter("type"))) {
-                String name = request.getParameter("name");
-                String company = request.getParameter("company");
-                String addr = request.getParameter("addr");
-                String tel = request.getParameter("tel");
-                String email = request.getParameter("email");
-                String subj = request.getParameter("subj");
-                String txtdetail = request.getParameter("txtdetail");
+            String email = request.getParameter("email");
                 
-                message.setSubject(subj);
-                message.setText("\n\n\n\nรายละเอียด : " + txtdetail + "\n\nชื่อผู้ติดต่อ : " + name + "\n\nบริษัท : " + company
-                        + "\n\nที่อยู่ : " + addr + "\n\nเบอร์โทรศัพท์ : " + tel + "\n\nอีเมลล์ : " + email);
+                message.setSubject("ระบบแจ้งเตือนรับข่าวสารและโปรโมชั่น!");
+                message.setText("\n\n\n\nขณะนี้ระบบได้ทำการบันทึก "+email+" เข้าสู่ระบบแล้ว!"+"\n\n\nท่านสามารถส่งข่าวสารและโปรโมชั่นให้กับสมาชิกได้ทันที");
 
                 Transport.send(message);
-            }
-            if ("quotation".equals(request.getParameter("type"))) {
-                System.out.println("quotation");
-                String pname = request.getParameter("pname");
-                String name = request.getParameter("name");
-                String lname = request.getParameter("lname");
-                String tel = request.getParameter("tel");
-                String email = request.getParameter("email");
-                String type = request.getParameter("contacttype");
-                String services = request.getParameter("services");
-                String origin = request.getParameter("origin");
-                String destination = request.getParameter("destination");
-                String comment = request.getParameter("comment");
-                
-                message.setSubject("ใบเสนอราคา");
-                message.setText("\n\n\n\n\n\nชื่อ : "+pname+name+"\t"+lname+
-                        "\n\nโทรศัพท์ : "+tel+"\n\nอีเมลล์ : "+email+"\n\nติดต่อในนาม : "+type+"\n\nประเภทการใช้บริการ : "+services+
-                        "\n\nต้นทาง : "+origin+"\n\nปลายทาง : "+destination+"\n\nข้อเสนอแนะ : "+comment);
+                System.out.println("Success Email is send!");
 
-                Transport.send(message);
-            }
-            if ("comment".equals(request.getParameter("type"))) {
-                System.out.println("comment");
-                String name = request.getParameter("name");
-                String tel = request.getParameter("tel");
-                String email = request.getParameter("email");
-                String comment = request.getParameter("comment");
-                
-                message.setSubject("แสดงความคิดเห็นและข้อเสนอแนะ");
-                message.setText("\n\n\n\n\n\nชื่อผู้ติดต่อ : "+name+
-                        "\n\nโทรศัพท์ : "+tel+"\n\nอีเมลล์ : "+email+"\n\nข้อเสนอแนะ : "+comment);
-
-                Transport.send(message);
-            }
-            System.out.println("Success Email is send!");
-
-        } catch (MessagingException e) {
-            throw new RuntimeException(e);
+        } catch (MessagingException ex) {
+            Logger.getLogger(email.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            Logger.getLogger(email.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            Logger.getLogger(email.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (SQLException ex) {
+            Logger.getLogger(email.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 

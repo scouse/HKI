@@ -26,12 +26,12 @@ body{
     margin: 20px auto 10px auto;
     padding-bottom: 5px;
     border: none;
-    background-color: #ffffff;
-    background-image: -webkit-gradient(linear, left top, left bottom, from( #ffffff /*{a-bar-background-start}*/), to( #ffffff /*{a-bar-background-end}*/));
-    background-image: -webkit-linear-gradient( #ffffff /*{a-bar-background-start}*/, #ffffff /*{a-bar-background-end}*/);
-    background-image: -moz-linear-gradient( #ffffff /*{a-bar-background-start}*/, #ffffff /*{a-bar-background-end}*/);
-    background-image: -ms-linear-gradient( #ffffff /*{a-bar-background-start}*/, #ffffff /*{a-bar-background-end}*/);
-    background-image: -o-linear-gradient( #ffffff /*{a-bar-background-start}*/, #ffffff /*{a-bar-background-end}*/);
+    background-color: #a90000 ;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #c20c0c /*{a-bar-background-start}*/), to( #a90000 /*{a-bar-background-end}*/));
+    background-image: -webkit-linear-gradient( #c20c0c /*{a-bar-background-start}*/, #a90000 /*{a-bar-background-end}*/);
+    background-image: -moz-linear-gradient( #c20c0c /*{a-bar-background-start}*/, #a90000/*{a-bar-background-end}*/);
+    background-image: -ms-linear-gradient( #c20c0c /*{a-bar-background-start}*/, #a90000 /*{a-bar-background-end}*/);
+    background-image: -o-linear-gradient( #c20c0c /*{a-bar-background-start}*/, #a90000 /*{a-bar-background-end}*/);
     background-image: linear-gradient( #c20c0c /*{a-bar-background-start}*/, #a90000 /*{a-bar-background-end}*/);
     box-shadow:0 0 7px rgba(0, 0, 0, .2);
     -moz-box-shadow:0 0 7px rgba(0, 0, 0, .2);

@@ -1,13 +1,13 @@
 <%-- 
-    Document   : columnLeft
-    Created on : May 26, 2013, 2:13:46 AM
+    Document   : columnLeftadmin
+    Created on : Jun 10, 2013, 11:37:42 PM
     Author     : Note
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <div class="frmcolL">
     <div class="box5px"></div>
-    <div class="headlogin">&nbsp;&nbsp;&nbsp;เข้าสู่ระบบ</div>
+    <div class="headlogin">&nbsp;&nbsp;&nbsp;ยินดีต้อนรับ</div>
     <div class="ui-grid-b login">
         <div class="ui-block-a login"></div>
         <div class="ui-block-b login">

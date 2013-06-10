@@ -53,7 +53,7 @@
         <div class="ui-block-b login">
             <div class="frmemail">
             <div class="text-email">Fill in your E-Mail</div>
-                <input type="text" id="email" placeholder="E-Mail" value="" aria-required="1" placeholder aria-label="First Name">
+                <input type="text" id="cus_email" placeholder="E-Mail" value="" aria-required="1" placeholder aria-label="First Name">
             </div>
             <div class="btlogin">
                 <input type="button" id="receive" value="Receive" data-theme="b" data-mini="true">

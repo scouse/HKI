@@ -40,6 +40,18 @@
         <servlet-name>en_contact</servlet-name>
         <servlet-class>servlet.en_contact</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>email</servlet-name>
+        <servlet-class>servlet.email</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>user</servlet-name>
+        <servlet-class>servlet.user</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>sendnews</servlet-name>
+        <servlet-class>servlet.sendnews</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>index</servlet-name>
         <url-pattern>/index</url-pattern>
@@ -79,6 +91,18 @@
     <servlet-mapping>
         <servlet-name>en_contact</servlet-name>
         <url-pattern>/en/contact</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>email</servlet-name>
+        <url-pattern>/email</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>user</servlet-name>
+        <url-pattern>/user</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sendnews</servlet-name>
+        <url-pattern>/sendnews</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

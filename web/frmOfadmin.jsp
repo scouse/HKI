@@ -1,6 +1,6 @@
 <%-- 
-    Document   : frmOfindex
-    Created on : May 23, 2013, 11:04:40 PM
+    Document   : frmOfadmin
+    Created on : Jun 10, 2013, 11:34:00 PM
     Author     : Note
 --%>
 
@@ -10,7 +10,6 @@
     <head>
         <link rel="icon" type="image/x-icon" href="">
         <meta http-equiv="X-UA-Compatible" content="IE=9" />
-        <meta http-equiv="X-UA-Compatible" content="IE=8" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script type="text/javascript" src="js/index.js"></script>
         <title>HKI Worldwide Movers Co.,Ltd.</title>
@@ -23,7 +22,7 @@
             <div data-role="content" >          
                 <div class="ui-grid-a column">
                     <div class="ui-block-a column">
-                        <jsp:include page="jsp/columnLeft.jsp" />
+                        <jsp:include page="jsp/columnLeftadmin.jsp" />
                     </div>
                     <div class="ui-block-b column">
                         <div class="advert">

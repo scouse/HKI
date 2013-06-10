@@ -10,7 +10,8 @@ IncludeJavaScript('js/jquery-1.8.3.min.js');
 IncludeJavaScript('js/jquery.mobile-1.3.0.js');
 IncludeJavaScript('js/jquery.nplugins-0.0.1.js');
 IncludeJavaScript('js/jquery.html5-placeholder.js');
-IncludeJavaScript('js/menu.js');
+IncludeJavaScript('js/collumnleft.js');
+
 
 IncludeCSS('css/jquery.mobile-1.3.0.css');
 IncludeCSS('css/jquery.mobile.pc-1.3.0.css');
@@ -20,7 +21,9 @@ IncludeCSS('css/index.css');
 
 window.onload = function(){
     language();
+    checkEmail();
 }
+
 function language(){
     $('#th').click(function(){
         var url = window.location.search;
