@@ -28,10 +28,10 @@
 </div>
 <div class="frmcolL2">
     <div class="box5px"></div>
-    <div class="headlogin">&nbsp;&nbsp;&nbsp;บริการของเรา</div>
-    <div class="ui-grid-b login">
-        <div class="ui-block-a login"></div>
-        <div class="ui-block-b login">
+    <div class="headservices">&nbsp;&nbsp;&nbsp;บริการของเรา</div>
+    <div class="ui-grid-b services">
+        <div class="ui-block-a services"></div>
+        <div class="ui-block-b services">
             <div class="box5px"></div>
             <div class="box5px"></div>
             <div class="service-CL"><a href="services?first" rel="external">&nbsp;- บริการบรรจุหีบห่อและขนย้าย</a></div>
@@ -40,17 +40,17 @@
             <div class="service-CL"><a href="services?fourth" rel="external">&nbsp;- บริการขนส่งและจัดวางในงานแสดงสินค้า</a></div>
             <div class="box5px"></div>
         </div>
-        <div class="ui-block-c login"></div>
+        <div class="ui-block-c services"></div>
     </div>
     <div class="box5px"></div>
     <div class="box5px"></div>
 </div>
 <div class="frmcolL3">
     <div class="box5px"></div>
-    <div class="headlogin">&nbsp;&nbsp;&nbsp;จดหมายข่าว</div>
-    <div class="ui-grid-b login">
-        <div class="ui-block-a login"></div>
-        <div class="ui-block-b login">
+    <div class="headnewsletter">&nbsp;&nbsp;&nbsp;จดหมายข่าว</div>
+    <div class="ui-grid-b newslet">
+        <div class="ui-block-a newslet"></div>
+        <div class="ui-block-b newslet">
             <div class="frmemail">
             <div class="text-email">กรอกอีเมลเพื่อรับข่าวสาร</div>
                 <input type="text" id="cus_email" placeholder="อีเมลล์" value="" aria-required="1" placeholder aria-label="First Name">
@@ -59,7 +59,7 @@
                 <input type="button" id="receive" value="รับข่าวสาร" data-theme="b" data-mini="true">
             </div>
         </div>
-        <div class="ui-block-c login"></div>
+        <div class="ui-block-c newslet"></div>
     </div>
     <div class="box5px"></div>
     <div class="box5px"></div>

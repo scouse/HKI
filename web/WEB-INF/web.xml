@@ -52,6 +52,14 @@
         <servlet-name>sendnews</servlet-name>
         <servlet-class>servlet.sendnews</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>gallery_admin</servlet-name>
+        <servlet-class>servlet.gallery_admin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>email_admin</servlet-name>
+        <servlet-class>servlet.email_admin</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>index</servlet-name>
         <url-pattern>/index</url-pattern>
@@ -103,6 +111,14 @@
     <servlet-mapping>
         <servlet-name>sendnews</servlet-name>
         <url-pattern>/sendnews</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>gallery_admin</servlet-name>
+        <url-pattern>/gallery_admin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>email_admin</servlet-name>
+        <url-pattern>/email_admin</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

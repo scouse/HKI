@@ -11,13 +11,12 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 /**
  *
  * @author Note
  */
-public class index extends HttpServlet {
+public class email_admin extends HttpServlet {
 
     /**
      * Processes requests for both HTTP
@@ -39,13 +38,13 @@ public class index extends HttpServlet {
              */
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet index</title>");
+            out.println("<title>Servlet email_admin</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet index at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet email_admin at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
-        } finally {
+        } finally {            
             out.close();
         }
     }
@@ -63,12 +62,9 @@ public class index extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        HttpSession session = request.getSession(true);
-        String page = "frmOfindex.jsp";
-        RequestDispatcher view = request.getRequestDispatcher(page);
-        view.forward(request, response);
+            String page = "frmOfemail_admin.jsp";
+            RequestDispatcher view = request.getRequestDispatcher(page);
+            view.forward(request,response);
     }
 
     /**
@@ -83,10 +79,7 @@ public class index extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        HttpSession session = request.getSession(true);
-        String page = "frmOfindex.jsp";
-        RequestDispatcher view = request.getRequestDispatcher(page);
-        view.forward(request, response);
+        processRequest(request, response);
     }
 
     /**

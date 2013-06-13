@@ -1,5 +1,6 @@
 $(function(){
     login();
+    check_session();
     checkEmail();
 });
 
@@ -20,26 +21,91 @@ function login(){
 }
 
 function check_login(){
+    if(($('#email').val()!="")&&($('#pass').val()!="")){
+        $.ajax({
+            url : 'user',
+            data : {
+                'option' : 'login',
+                'email' : $('#email').val(),
+                'pass' : $('#pass').val()
+            },
+            dataType : 'json',
+            type : 'get',
+            error : function(XMLHttpRequest, textStatus, errorThrown){
+            //                    alert('Error');
+            },
+            success : function (data){
+                if(data.fname!=undefined){
+                    $.ajax({
+                        url : 'user',
+                        data : {
+                            'option' : 'session_set',
+                            'email' : data.email,
+                            'fname' : data.fname,
+                            'lname' : data.lname,
+                            'status' : data.status
+                        },
+                        dataType : 'json',
+                        type : 'post',
+                        error : function(XMLHttpRequest, textStatus, errorThrown){
+                        //                                alert('Error');
+                        },
+                        success : function (data){
+                            check_session();
+                            alert('check_session');
+                        }
+                    });
+                }else{
+                    $('#pass').val("");
+                    alert("Email หรือ รหัสผ่าน ไม่ถูกต้อง");
+                }
+            }
+        });
+    }
+}
+
+function check_session(){
     $.ajax({
         url : 'user',
         data : {
-            'email' : $('#email').val(),
-            'pass' : $('#pass').val()
+            'option' : 'session_get'
         },
         dataType : 'json',
-        type : 'post',
+        type : 'get',
         error : function(XMLHttpRequest, textStatus, errorThrown) {
             alert('Error');
         },
         success : function(data) {
-            if(data.status == "pass"){
-                  alert('Welcome');
-                  window.location.href="frmOfadmin.jsp";
-            }
-            else if(data.status == "fail"){
-                alert("ชื่อผู้ใช้ หรือ รหัสผ่าน ไม่ถูกต้อง!");
-                $('#pass').val('password');
-            }
+                var content = '<div class="ui-block-a login"></div><div class="ui-block-b login"><div class="frmemail">ยินดีต้อนรับ<br/>\n\
+คุณ '+data.fname+' '+data.lname+'\n\
+<div class="user_menu"><br/>';
+                if(data.status == "1"){
+                    content += '<a href="gallery_admin" rel="external">- ระบบจัดการรูปภาพ</a><br/>';
+                    content += '<a href="email_admin" rel="external">- ระบบจัดการอีเมลล์</a><br/>';
+                }
+                content += '<a href="#" onclick="logout();">- ออกจากระบบ</a><br/></div></div></div><div class="ui-block-c login"></div>';
+            
+                $('.login.ui-grid-b').empty();
+                $('.login.ui-grid-b').attr('style','text-align: center;');
+                $('.login.ui-grid-b').append(content);
+            
+        }
+    });
+}
+
+function logout(){
+    $.ajax({
+        url : 'user',
+        data : {
+            'option' : 'logout'
+        },
+        dataType : 'json',
+        type : 'get',
+        error : function(XMLHttpRequest, textStatus, errorThrown){
+//            alert('Error');
+        },
+        success : function (data){
+            window.location.reload();
         }
     });
 }

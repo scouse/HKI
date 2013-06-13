@@ -16,15 +16,3 @@ IncludeCSS('css/jquery.mobile-1.3.0.css');
 IncludeCSS('css/jquery.mobile.pc-1.3.0.css');
 IncludeCSS('css/jquery.nplugins-0.0.1.css');
 IncludeCSS('css/style.css');
-IncludeCSS('css/index.css');
-
-window.onload = function(){
-    language();
-    
-}
-function language(){
-    $('#en').click(function(){
-        window.location = '';
-        window.location.replace('/HKI/en');
-    });
-}
