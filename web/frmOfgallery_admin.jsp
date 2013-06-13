@@ -25,7 +25,7 @@
                         <jsp:include page="jsp/columnLeft.jsp" />
                     </div>
                     <div class="ui-block-b column">
-                        
+                        GALLERY_ADMIN
                     </div>
                 </div>
             </div>

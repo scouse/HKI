@@ -52,7 +52,6 @@ function check_login(){
                         },
                         success : function (data){
                             check_session();
-                            alert('check_session');
                         }
                     });
                 }else{

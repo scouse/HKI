@@ -200,6 +200,22 @@
     white-space: normal;
     width: 190px;
 }
+.user_menu a:link{
+    color: #FFDF00;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: normal;
+    text-decoration: none;
+    
+}
+.user_menu a:visited {
+    color: #FFDF00;
+    font-size: 14px;
+    font-weight: normal;
+}
+.user_menu a:hover{
+    color: #ffffff;
+}
 /* ColumnLeft END */
 
 /* BUTTON */
@@ -253,7 +269,6 @@
 .ui-body-c .ui-link:hover{
     color: #ffffff;
 }
-
 /* MENU START */
 #menu{
     background-color: #ffffff;
