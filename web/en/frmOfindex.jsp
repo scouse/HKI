@@ -40,7 +40,7 @@
                                 <div class="text">
                                     <h6>Free!! Services</h6>
                                     <ul>
-                                        <li>Free!! Consultation Whether you are moving down the street or around the world,no one will take better care of you or your possessions than HKI. General customs information ( Thailand )</li>
+                                        <li>Free!! Consultation Whether you are moving down the street or around the world,no one will take better care of you or your possessions than HKI. General customs information( Thailand )</li>
                                     </ul>
 
                                 </div>
