@@ -327,7 +327,7 @@ ul#css3menu1 ul>li{
 ul#css3menu1 a:active, ul#css3menu1 a:focus{
     outline-style:none;}
 ul#css3menu1 a{text-shadow: none;
-    font-size: 13px;height: 35px;display:block;vertical-align:middle;text-align:center;text-decoration:none;color:#FFF;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none; line-height: 40px;}
+    font-size: 14px;height: 35px;display:block;vertical-align:middle;text-align:center;text-decoration:none;color:#FFF;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none; line-height: 40px;}
 ul#css3menu1 ul li{
     float:none;}
 ul#css3menu1 ul a{
@@ -354,7 +354,7 @@ ul#css3menu1 span{cursor: default;
     display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
 ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li>a.pressed{
     background-color:#c20c0c;background-image:none;border-style:solid;border-color:#FFF;color:#FFDF00;text-decoration:none;}
-ul#css3menu1 li.topfirst>a{margin-left: 10px;
+ul#css3menu1 li.topfirst>a{margin-left: 10px;font-size: 14px;
                            border-radius:0px 0 0 0px;-moz-border-radius:0px 0 0 0px;-webkit-border-radius:0px;-webkit-border-top-right-radius:0;-webkit-border-bottom-right-radius:0;}
 ul#css3menu1 li.topfirst:hover>a,ul#css3menu1 li.topfirst>a.pressed{}
 ul#css3menu1 li.topmenu>a{}
