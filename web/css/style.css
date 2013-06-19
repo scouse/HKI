@@ -146,7 +146,7 @@
     text-shadow: none;
     color: #FFDF00;
 }
-.ui-grid-b.services , .ui-grid-b.newslet{
+.ui-grid-b._services , .ui-grid-b.newslet{
     width: 93.5%;
     margin: 0 auto;
     border: solid white 1px;
@@ -162,11 +162,11 @@
 .ui-grid-b.login .login.ui-block-b{
     width: 200px;
 }
-.services.ui-grid-b .services.ui-block-a , .services.ui-grid-b .services.ui-block-c , 
+._services.ui-grid-b ._services.ui-block-a , ._services.ui-grid-b ._services.ui-block-c , 
 .newslet.ui-grid-b .newslet.ui-block-a , .newslet.ui-grid-b .newslet.ui-block-c{
     width: 10px;
 }
-.ui-grid-b.services .services.ui-block-b , .ui-grid-b.newslet .newslet.ui-block-b{
+.ui-grid-b._services ._services.ui-block-b , .ui-grid-b.newslet .newslet.ui-block-b{
     width: 200px;
 }
 .frmemail {

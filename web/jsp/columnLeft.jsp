@@ -29,9 +29,9 @@
 <div class="frmcolL2">
     <div class="box5px"></div>
     <div class="headservices">&nbsp;&nbsp;&nbsp;บริการของเรา</div>
-    <div class="ui-grid-b services">
-        <div class="ui-block-a services"></div>
-        <div class="ui-block-b services">
+    <div class="ui-grid-b _services">
+        <div class="ui-block-a _services"></div>
+        <div class="ui-block-b _services">
             <div class="box5px"></div>
             <div class="box5px"></div>
             <div class="service-CL"><a href="services" rel="external">&nbsp;- บริการบรรจุหีบห่อและขนย้าย</a></div>
@@ -40,7 +40,7 @@
             <div class="service-CL"><a href="services?exhibition" rel="external">&nbsp;- บริการขนส่งและจัดวางในงานแสดงสินค้า</a></div>
             <div class="box5px"></div>
         </div>
-        <div class="ui-block-c services"></div>
+        <div class="ui-block-c _services"></div>
     </div>
     <div class="box5px"></div>
     <div class="box5px"></div>
