@@ -14,7 +14,7 @@
     box-shadow: 0px 0px 12px rgba(239,211,31,1);
 }
 .ui-btn-up-c{
-    color: #c20c0c;
+    color: #000000;
 }
 .ui-btn-hover-c:visited, .ui-btn-hover-c:hover, .ui-btn-hover-c a.ui-link-inherit{
     color: #c20c0c;
@@ -114,7 +114,7 @@
     line-height: 35px;
     font-weight: bold;
     text-shadow: none;
-    color: #8B0D0D;
+    color: #000000;
     /*    background-color: #FFDF00;*/
     border-radius: 15px 40px 0 0;
     -webkit-border-top-left-radius: 15px;
@@ -240,7 +240,7 @@
 .ui-btn-up-b {
     border: none;
     font-weight: bold;
-    color: #8B0D0D /*{b-bup-color}*/;
+    color: #000000 /*{b-bup-color}*/;
     text-shadow: none;
     background: rgb(249,236,137); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
