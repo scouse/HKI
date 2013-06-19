@@ -9,9 +9,10 @@
 <html>
     <head>
         <link rel="shortcut icon" href="images/icon.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=9" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script type="text/javascript" src="js/aboutus.js"></script>
-        <title>HKI Worldwide Movers Co.,Ltd.</title>
+        <title>HKI Movers And Logistics Co.,Ltd.</title>
     </head>
     <body>
         <div data-role="page">
