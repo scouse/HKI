@@ -32,13 +32,12 @@
     <div class="ui-grid-b _services">
         <div class="ui-block-a _services"></div>
         <div class="ui-block-b _services">
-            <div class="box5px"></div>
-            <div class="box5px"></div>
-            <div class="service-CL"><a href="services?lang=en" rel="external">&nbsp;- Domestic and International household goods,Relocation</a></div>
-            <div class="service-CL"><a href="services?industrial&lang=en" rel="external">&nbsp;- Industrial machinery moving and crating</a></div>
-            <div class="service-CL"><a href="services?warehouse&lang=en" rel="external">&nbsp;- Warehouse storage</a></div>
-            <div class="service-CL"><a href="services?exhibition&lang=en" rel="external">&nbsp;- Exhibition handling service</a></div>
-            <div class="box5px"></div>
+            <ul class="service-CL">
+                <li><a href="services?lang=en" rel="external">Domestic and International household goods,Relocation</a></li>
+                <li><a href="services?industrial&lang=en" rel="external">Industrial machinery moving and crating</a></li>
+                <li><a href="services?warehouse&lang=en" rel="external">Warehouse storage</a></li>
+                <li><a href="services?exhibition&lang=en" rel="external">Exhibition handling service</a></li>
+            </ul>
         </div>
         <div class="ui-block-c _services"></div>
     </div>
@@ -52,7 +51,7 @@
         <div class="ui-block-a newslet"></div>
         <div class="ui-block-b newslet">
             <div class="frmemail">
-            <div class="text-email">Fill in your E-Mail</div>
+                <div class="text-email">Fill in your E-Mail</div>
                 <input type="text" id="cus_email" placeholder="E-Mail" value="" aria-required="1" placeholder aria-label="First Name">
             </div>
             <div class="btlogin">

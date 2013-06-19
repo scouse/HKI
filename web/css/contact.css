@@ -15,7 +15,7 @@
     height: 100%;
     margin-top: 5px;
     margin-left: 5px;
-    color:#c20c0c;
+    color:#362022;
     font-size: 15px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -41,7 +41,7 @@
     line-height: 50px;
     font-size: 16px;
     font-weight: bold;
-    border-bottom: solid #c20c0c 1px;
+    border-bottom: solid #362022 1px;
 }
 .formcontact.ui-grid-c .ui-block-a, .formcontact.ui-grid-c .ui-block-d{
 /*    border: solid red;*/

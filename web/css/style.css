@@ -114,7 +114,7 @@
     line-height: 35px;
     font-weight: bold;
     text-shadow: none;
-    color: #000000;
+    color: #362022;
     /*    background-color: #FFDF00;*/
     border-radius: 15px 40px 0 0;
     -webkit-border-top-left-radius: 15px;
@@ -146,7 +146,7 @@
     text-shadow: none;
     color: #FFDF00;
 }
-.ui-grid-b.services , .ui-grid-b.newslet{
+.ui-grid-b._services , .ui-grid-b.newslet{
     width: 93.5%;
     margin: 0 auto;
     border: solid white 1px;
@@ -162,11 +162,11 @@
 .ui-grid-b.login .login.ui-block-b{
     width: 200px;
 }
-.services.ui-grid-b .services.ui-block-a , .services.ui-grid-b .services.ui-block-c , 
+._services.ui-grid-b ._services.ui-block-a , ._services.ui-grid-b ._services.ui-block-c , 
 .newslet.ui-grid-b .newslet.ui-block-a , .newslet.ui-grid-b .newslet.ui-block-c{
     width: 10px;
 }
-.ui-grid-b.services .services.ui-block-b , .ui-grid-b.newslet .newslet.ui-block-b{
+.ui-grid-b._services ._services.ui-block-b , .ui-grid-b.newslet .newslet.ui-block-b{
     width: 200px;
 }
 .frmemail {
@@ -188,7 +188,7 @@
 .text-email{
     margin: 0 auto;
     text-shadow: none;
-    color: #FFF;
+    color: #FFF6B3;
     font-size: 15px;
 }
 
@@ -240,7 +240,7 @@
 .ui-btn-up-b {
     border: none;
     font-weight: bold;
-    color: #000000 /*{b-bup-color}*/;
+    color: #362022 /*{b-bup-color}*/;
     text-shadow: none;
     background: rgb(249,236,137); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -258,17 +258,17 @@
 /* END BUTTON */
 
 .ui-body-c .ui-link{
-    color: #FFF;
+    color: #FFF6B3;
     font-size: 14px;
     font-weight: normal;
 }
 .ui-body-c .ui-link:visited {
-    color: #FFF;
+    color: #FFF6B3;
     font-size: 14px;
     font-weight: normal;
 }
 .ui-body-c .ui-link:hover{
-    color: #FFDF00;
+    color: #FFFFFF;
 }
 /* MENU START */
 #menu{
@@ -327,17 +327,17 @@ ul#css3menu1 ul>li{
 ul#css3menu1 a:active, ul#css3menu1 a:focus{
     outline-style:none;}
 ul#css3menu1 a{text-shadow: none;
-    font-size: 14px;height: 35px;display:block;vertical-align:middle;text-align:center;text-decoration:none;color:#FFF;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none; line-height: 40px;}
+    font-size: 14px;height: 35px;display:block;vertical-align:middle;text-align:center;text-decoration:none;color:#FFF6B3;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none; line-height: 40px;}
 ul#css3menu1 ul li{
     float:none;}
 ul#css3menu1 ul a{
-    font-size: 12px;text-align:left;background-color:#c20c0c;background-image:none;border-width:1px 0 0 0;border-style:solid;border-color:#FFF;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;color:#FFF;text-decoration:none;}
+    font-size: 12px;text-align:left;background-color:#c20c0c;background-image:none;border-width:1px 0 0 0;border-style:solid;border-color:#FFF;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;color:#FFF6B3;text-decoration:none;}
 ul#css3menu1 ul a.publication{
     text-align:left;padding:8px 0 0 0;background-color:#c20c0c;background-image:none;border-width:1px 0 0 0;border-style:solid;border-color:#7a7a7a;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;color:#FFDF00;text-decoration:none;}
 
 ul#css3menu1 li:hover>a,ul#css3menu1 a.pressed{
     /*    background-color:#c20c0c;*/
-    border-style:none;color:#FFE000;text-decoration:none;background-image:url("mainbk.png");background-position:0 100px;}
+    border-style:none;color:#FFF;text-decoration:none;background-image:url("mainbk.png");background-position:0 100px;}
 ul#css3menu1 img{
     border:none;vertical-align:middle;margin-right:10px;}
 ul#css3menu1 img.over{
@@ -353,7 +353,7 @@ ul#css3menu1 li a.pressed img.def{
 ul#css3menu1 span{cursor: default;
     display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
 ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li>a.pressed{
-    background-color:#c20c0c;background-image:none;border-style:solid;border-color:#FFF;color:#FFDF00;text-decoration:none;}
+    background-color:#c20c0c;background-image:none;border-style:solid;border-color:#FFF;color:#FFF;text-decoration:none;}
 ul#css3menu1 li.topfirst>a{margin-left: 10px;font-size: 14px;
                            border-radius:0px 0 0 0px;-moz-border-radius:0px 0 0 0px;-webkit-border-radius:0px;-webkit-border-top-right-radius:0;-webkit-border-bottom-right-radius:0;}
 ul#css3menu1 li.topfirst:hover>a,ul#css3menu1 li.topfirst>a.pressed{}

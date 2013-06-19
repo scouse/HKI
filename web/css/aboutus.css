@@ -11,7 +11,7 @@
     height: 720px;
     margin-top: 5px;
     margin-left: 5px;
-    color:#c20c0c;
+    color:#362022;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -39,7 +39,7 @@
 .about h4 , .vision h4{
     margin-top: 5px;
     line-height: 40px;
-    border-bottom: solid #c20c0c 1px;
+    border-bottom: solid #362022 1px;
 }
 .about p , .vision p{
     line-height: 20px;

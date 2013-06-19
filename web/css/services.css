@@ -11,7 +11,7 @@
     height: 100%;
     margin-top: 5px;
     margin-left: 5px;
-    color:#c20c0c;
+    color:#362022;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -45,7 +45,7 @@
 .services h4 , ._services2 h4{
     font-size: 15px;
     height: 30px;
-    border-bottom: solid #c20c0c 1px;
+    border-bottom: solid #362022 1px;
 }
 .services p {
     line-height: 20px;
