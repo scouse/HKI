@@ -67,7 +67,7 @@
 
 .h-service h3{
     text-shadow: none;
-    color: #c20c0c;
+    color: #AA0E0E;
     font-weight: bold;
     font-size: 16px;
     padding: 5px;
@@ -91,13 +91,13 @@
 /*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec89', endColorstr='#efd31f',GradientType=0 );  IE6-8 */
 }
 .text h6{
-    color: #c20c0c;
+    color: #AA0E0E;
     margin: 0 0 10px 0;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .text p{
-    color: #c20c0c;
+    color: #AA0E0E;
     margin: 0;
     font-size: 14px;
     line-height: 23px;
@@ -111,9 +111,10 @@
     text-align: justify;
     text-shadow: none;
     text-indent: 15px;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: bold;
     line-height: 20px;
-    color: #362022;
+    color: #AA0E0E;
 }
 
 .advertbox2{
