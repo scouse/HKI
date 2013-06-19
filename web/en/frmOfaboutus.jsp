@@ -43,11 +43,13 @@
                                 <h4>Vision</h4>
                                 <p>To be the leading regional logistics solution provider.</p>
                                 <h4>Mission</h4>
-                                <p>- Control costs with the high quality.</p>
-                                <p>- Give the customer satisfied in services.</p>
-                                <p>- Working with business-partner relationship as a solution provider by professional team.</p>
-                                <p>- Provide the flexible services and cooperate the client to solve the obstacle.</p>
-                                <p>- To be trust and reliability as the professional.</p>
+                                <ul>
+                                    <li>Control costs with the high quality.</li>
+                                    <li>Give the customer satisfied in services.</li>
+                                    <li>Working with business-partner relationship as a solution provider by professional team.</li>
+                                    <li>Provide the flexible services and cooperate the client to solve the obstacle.</li>
+                                    <li>To be trust and reliability as the professional.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

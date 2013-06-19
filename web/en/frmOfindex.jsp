@@ -29,7 +29,7 @@
                             <div class="advertbox1">
                                 <h3>HKI Movers & Logistics Company Limited</h3>
                                 <p>originated in Thailand in excess of 30 years is dedicated to delivering the highest level of logistics professionalism and is committed to 
-                                quality service and customer satisfaction to this extent, the company  strives to be a collaborative bussiness partner.</p>
+                                    quality service and customer satisfaction to this extent, the company  strives to be a collaborative bussiness partner.</p>
                             </div>
                             <div class="advertbox2"><img src="images/about.png"/></div>
                         </div>
@@ -39,31 +39,35 @@
                                 <div class="img_box"><img src="images/img_box1.png"/></div>
                                 <div class="text">
                                     <h6>Free!! Services</h6>
-                                    <p>- Free!! Consultation</p>
-                                    <p>&nbsp;&nbsp;&nbsp;Whether you are moving down the street or around the world,</p>
-                                    <p>&nbsp;&nbsp;&nbsp;no one will take better care of you or your possessions than HKI.</p>
-                                    <p>General customs information ( Thailand )</p>
+                                    <ul>
+                                        <li>Free!! Consultation Whether you are moving down the street or around the world,no one will take better care of you or your possessions than HKI. General customs information ( Thailand )</li>
+                                    </ul>
+
                                 </div>
                             </div>
                             <div class="span3 feature">
                                 <div class="img_box"><img src="images/img_box2.png"/></div>
                                 <div class="text">
                                     <h6>Relocations Services</h6>
-                                    <p>- Internation moving</p>
-                                    <p>- Domestic moving</p>
-                                    <p>- Door to Door</p>
-                                    <p>- Door to Port</p>
+                                    <ul>
+                                        <li>Internation moving</li>
+                                        <li>Domestic moving</li>
+                                        <li>Door to Door</li>
+                                        <li>Door to Port</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="span3 featurelast">
                                 <div class="img_box"><img src="images/img_box3.png"/></div>
                                 <div class="text">
                                     <h6>Document for clearing shipemnt.</h6>
-                                    <p>- Original passport</p>
-                                    <p>- Original  work permit</p>
-                                    <p>- Original Bill of Lading</p>
-                                    <p>- Packing list</p>
-                                    <p>- Authorized and  customers entry form( Prepared by HKI )</p>
+                                    <ul>
+                                        <li>Original passport</li>
+                                        <li>Original  work permit</li>
+                                        <li>Original Bill of Lading</li>
+                                        <li>Packing list</li>
+                                        <li>Authorized and  customers entry form( Prepared by HKI )</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

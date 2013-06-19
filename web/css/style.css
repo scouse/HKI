@@ -5,6 +5,15 @@
     Description:
         Purpose of the stylesheet follows.
 */
+body p{
+    text-indent: 36px;    
+}
+
+body ul li{
+    font-size: 14px;
+    line-height: 24px;
+}
+
 .ui-checkbox-on .ui-icon, .ui-radio-on .ui-icon{
     background-color: #FFDF00;
 }
@@ -33,7 +42,7 @@
     background: -o-linear-gradient(top,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* W3C */
-/*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec89', endColorstr='#efd31f',GradientType=0 );  IE6-8 */
+    /*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec89', endColorstr='#efd31f',GradientType=0 );  IE6-8 */
 }
 .ui-link{
     text-decoration: none;
@@ -130,7 +139,7 @@
     background: -o-linear-gradient(top,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* W3C */
-/*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec89', endColorstr='#efd31f',GradientType=0 );  IE6-8 */
+    /*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec89', endColorstr='#efd31f',GradientType=0 );  IE6-8 */
 
 }
 .ui-grid-b.login{
@@ -207,7 +216,7 @@
     line-height: 25px;
     font-weight: normal;
     text-decoration: none;
-    
+
 }
 .user_menu a:visited {
     color: #FFDF00;
@@ -234,7 +243,7 @@
     background: -o-linear-gradient(top,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* W3C */
-/*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec89', endColorstr='#efd31f',GradientType=0 );  IE6-8 */
+    /*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec89', endColorstr='#efd31f',GradientType=0 );  IE6-8 */
 
 }
 .ui-btn-up-b {
@@ -251,7 +260,7 @@
     background: -o-linear-gradient(top,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(249,236,137,1) 0%,rgba(239,211,31,1) 93%); /* W3C */
-/*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec89', endColorstr='#efd31f',GradientType=0 );  IE6-8 */
+    /*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec89', endColorstr='#efd31f',GradientType=0 );  IE6-8 */
 
 }
 
@@ -301,7 +310,7 @@ ul#css3menu1,ul#css3menu1 ul{
     background: -o-linear-gradient(top,  #e02f2f 0%,#f16f5c 50%,#dd0000 51%,#e01818 71%,#af0000 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  #e02f2f 0%,#f16f5c 50%,#dd0000 51%,#e01818 71%,#af0000 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #e02f2f 0%,#f16f5c 50%,#dd0000 51%,#e01818 71%,#af0000 100%); /* W3C */
-/*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e02f2f', endColorstr='#af0000',GradientType=0 );  IE6-8 */
+    /*    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e02f2f', endColorstr='#af0000',GradientType=0 );  IE6-8 */
 
 }
 ul#css3menu1 ul{width: auto;border: solid #FFF 1px;
@@ -327,7 +336,7 @@ ul#css3menu1 ul>li{
 ul#css3menu1 a:active, ul#css3menu1 a:focus{
     outline-style:none;}
 ul#css3menu1 a{text-shadow: none;
-    font-size: 14px;height: 35px;display:block;vertical-align:middle;text-align:center;text-decoration:none;color:#FFF6B3;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none; line-height: 40px;}
+               font-size: 14px;height: 35px;display:block;vertical-align:middle;text-align:center;text-decoration:none;color:#FFF6B3;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none; line-height: 40px;}
 ul#css3menu1 ul li{
     float:none;}
 ul#css3menu1 ul a{
@@ -351,7 +360,7 @@ ul#css3menu1 li a.pressed img.over{
 ul#css3menu1 li a.pressed img.def{
     display:none;}
 ul#css3menu1 span{cursor: default;
-    display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
+                  display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
 ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li>a.pressed{
     background-color:#c20c0c;background-image:none;border-style:solid;border-color:#FFF;color:#FFF;text-decoration:none;}
 ul#css3menu1 li.topfirst>a{margin-left: 10px;font-size: 14px;
