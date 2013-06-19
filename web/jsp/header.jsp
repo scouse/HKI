@@ -27,7 +27,7 @@
             </ul>
         </li>
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
-        <li class="topmenu"><a class="pressedgallery" href="gallery" rel="external">รูปภาพ</a></li>
+        <li class="topmenu"><a class="pressedgallery" href="gallery" rel="external">แกลอรี่</a></li>
         <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
         <li class="toplast"><a class="pressedcontact" href="" onclick="false" >ติดต่อบริษัท</a>
             <ul class="submenu">

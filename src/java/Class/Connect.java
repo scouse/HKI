@@ -15,7 +15,7 @@ public class Connect {
     public Connection con = null;
     public Statement st = null;
     public ResultSet rs = null;
-    public String database = "hki";
+    public String database = "hki_hki";
     public String user = "hki";
     public String pass = "password";
 
