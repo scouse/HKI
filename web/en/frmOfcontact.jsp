@@ -217,13 +217,9 @@
                                 <div class="ui-block-b button"><a href="#" data-role="button" data-inline="true" data-theme="b" data-mini="true">Submit</a></div>
                                 <div class="ui-block-c button"><a href="#" data-role="button" data-inline="true" data-theme="b" data-mini="true">Cancel</a></div>
                                 <div class="ui-block-d button"></div>
-
-                                <div class="ui-block-a comment"></div>
-                                <div class="ui-block-b comment">We greatly appreciate your thoughts and opinions regarding our service. If you requested a respond and 
-                                gave us your e-mail address, you will be hearing from a company representative shortly.</div>
-                                <div class="ui-block-c comment"></div>
-                                <div class="ui-block-d comment"></div>
                             </div>
+                            <dd>We greatly appreciate your thoughts and opinions regarding our service. If you requested a respond and<br/><br/>
+                                gave us your e-mail address, you will be hearing from a company representative shortly.</dd>
                             <div class="ui-grid-d info">
                                 <div class="ui-block-a info"></div>
                                 <div class="ui-block-b info">HKI Movers & Logistics Co., Ltd. <br/>

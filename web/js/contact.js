@@ -1,10 +1,10 @@
 function IncludeJavaScript(jsFile) {
     document.write('<script type="text/javascript" src="' + jsFile
-        + '"></script>');
+            + '"></script>');
 }
 function IncludeCSS(cssFile) {
     document.write('<link rel="stylesheet" href="' + cssFile
-        + '" type="text/css" media="all">');
+            + '" type="text/css" media="all">');
 }
 IncludeJavaScript('js/jquery-1.8.3.min.js');
 IncludeJavaScript('js/jquery.mobile-1.3.0.js');
@@ -18,80 +18,70 @@ IncludeCSS('css/jquery.nplugins-0.0.1.css');
 IncludeCSS('css/style.css');
 IncludeCSS('css/contact.css');
 
-window.onload = function(){
+window.onload = function() {
     contact();
     language();
     sendemail();
-}
+};
 
 
-function contact(){
-    var query = window.location.search.substring(1);
-    if(query === ""){
+function contact() {
+    var query = window.location.search.substring(1).split("&");
+    if (query[0] === "quotation") {
+        $('#contact').hide();
+        $('#comments').hide();
+        setTimeout(function() {
+            $('#quotation').show();
+        }, 200);
+    } else if (query[0] === "comment") {
+        $('#contact').hide();
+        $('#quotation').hide();
+        setTimeout(function() {
+            $('#comments').show();
+        }, 200);
+    } else {
         $('#quotation').hide();
         $('#comments').hide();
-        setTimeout(function(){
+        setTimeout(function() {
             $('#contact').show();
         }, 200);
     }
-    if(query === "quotation"){
-        $('#contact').hide();
-        $('#comments').hide();
-        setTimeout(function(){
-            $('#quotation').show();
-        }, 200);
-    }
-    if(query === "comment"){
-        $('#contact').hide();
-        $('#quotation').hide();
-        setTimeout(function(){
-            $('#comments').show();
-        }, 200);
-    }
 }
 
-function language(){
-    $('#en').click(function(){
-        var url = window.location.search;
-        window.location = '';
-        window.location = '/HKI/en/contact'+url;
-    });
-}
-
-function sendemail(){
-    $('#submit_contact').click(function(){
-        if($('#name').val()== ""){
+function sendemail() {
+    $('#submit_contact').click(function() {
+        if ($('#name').val() == "") {
             alert('กรุณาใส่ชื่อผู้ติดต่อ!');
             return false;
         }
-        if($('#addr').val()== ""){
+        if ($('#addr').val() == "") {
             alert('กรุณาใส่ที่อยู่ผู้ติดต่อ!');
             return false;
         }
-        if($('#tel').val()== ""){
+        if ($('#tel').val() == "") {
             alert('กรุณาใส่เบอร์โทรศัพท์!');
             return false;
         }
-        if($('#tel').val() != ""){
+        if ($('#tel').val() != "") {
             var num = /[^\\d]/;
-            if(!(num.test($('#tel').val()))){
+            if (!(num.test($('#tel').val()))) {
                 alert('กรุณาตรวจสอบเบอร์โทรศัพท์อีกครั้ง!');
                 return false;
             }
         }
-        if($('#cont_email').val()== ""){
+        if ($('#cont_email').val() == "") {
             alert('กรุณาใส่อีเมลล์!');
             return false;
         }
-        if($('#cont_email').val() != ""){
+        if ($('#cont_email').val() != "") {
             var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             if (!(filter.test($('#cont_email').val()))) {
                 alert('กรุณาใส่อีเมลล์ให้ถูกต้อง!');
                 return false;
             }
-            
+
         }
-        if($('#subj').val()== ""){
+        if ($('#subj').val() == "") {
             alert('กรุณาใส่เรื่องที่ต้องการติดต่อ!');
             return false;
         }
@@ -99,116 +89,116 @@ function sendemail(){
         sendding(sel);
         $.mobile.loading('show');
     });
-    
-    $('.reset_form').click(function(){
+
+    $('.reset_form').click(function() {
         alert('รีเซ็ตข้อมูล!');
         $('.clear').val("");
     });
-    
-    $('#submit_quotation').click(function(){
-        if($('#name_quotation').val()== ""){
+
+    $('#submit_quotation').click(function() {
+        if ($('#name_quotation').val() == "") {
             alert('กรุณาใส่ชื่อผู้ติดต่อ!');
             return false;
         }
-        if($('#tel_quotation').val()== ""){
+        if ($('#tel_quotation').val() == "") {
             alert('กรุณาใส่เบอร์โทรศัพท์!');
             return false;
         }
-        if($('#tel_quotation').val() != ""){
+        if ($('#tel_quotation').val() != "") {
             var num = /[^\\d]/;
-            if(!(num.test($('#tel_quotation').val()))){
+            if (!(num.test($('#tel_quotation').val()))) {
                 alert('กรุณาตรวจสอบเบอร์โทรศัพท์อีกครั้ง!');
                 return false;
             }
         }
-        if($('#email_quotation').val()== ""){
+        if ($('#email_quotation').val() == "") {
             alert('กรุณาใส่อีเมลล์!');
             return false;
         }
-        if($('#email_quotation').val() != ""){
+        if ($('#email_quotation').val() != "") {
             var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             if (!(filter.test($('#email_quotation').val()))) {
                 alert('กรุณาใส่อีเมลล์ให้ถูกต้อง!');
                 return false;
             }
         }
-        if($('#origin_quotation').val()== ""){
+        if ($('#origin_quotation').val() == "") {
             alert('กรุณาใส่ต้นทาง!');
             return false;
         }
-        if($('#destination_quotation').val()== ""){
+        if ($('#destination_quotation').val() == "") {
             alert('กรุณาใส่ปลายทาง!');
             return false;
         }
-        if($('.checkbox:checked').val() == undefined){
+        if ($('.checkbox:checked').val() == undefined) {
             alert('กรุณาใส่ประเภทที่ต้องการใช้บริการ!');
             return false;
         }
-        
+
         var sel = "quotation";
         sendding(sel);
         $.mobile.loading('show');
     });
-    
-    $('#submit_comment').click(function(){
-        if($('#name_comment').val()== ""){
+
+    $('#submit_comment').click(function() {
+        if ($('#name_comment').val() == "") {
             alert('กรุณาใส่ชื่อผู้ติดต่อ!');
             return false;
         }
-        if($('#tel_comment').val()== ""){
+        if ($('#tel_comment').val() == "") {
             alert('กรุณาใส่เบอร์โทรศัพท์!');
             return false;
         }
-        if($('#tel_comment').val() != ""){
+        if ($('#tel_comment').val() != "") {
             var num = /[^\\d]/;
-            if(!(num.test($('#tel_comment').val()))){
+            if (!(num.test($('#tel_comment').val()))) {
                 alert('กรุณาตรวจสอบเบอร์โทรศัพท์อีกครั้ง!');
                 return false;
             }
         }
-        if($('#email_comment').val()== ""){
+        if ($('#email_comment').val() == "") {
             alert('กรุณาใส่อีเมลล์!');
             return false;
         }
-        if($('#email_comment').val() != ""){
+        if ($('#email_comment').val() != "") {
             var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             if (!(filter.test($('#email_comment').val()))) {
                 alert('กรุณาใส่อีเมลล์ให้ถูกต้อง!');
                 return false;
             }
         }
-        if($('#comment_comments').val()== ""){
+        if ($('#comment_comments').val() == "") {
             alert('กรุณาใส่ข้อเสนอแนะ!');
             return false;
         }
-        var sel = "comment";    
+        var sel = "comment";
         sendding(sel);
         $.mobile.loading('show');
     });
 
 }
-        
 
-function sendding(sel){
-    if(sel == "contact"){
+
+function sendding(sel) {
+    if (sel == "contact") {
         $.ajax({
-            url : 'contact',
-            data : {
-                'type' : 'contact',
-                'name' : $('#name').val(),
-                'company' : $('#company').val(),
-                'addr'    : $('#addr').val(),
-                'tel'    : $('#tel').val(),
-                'email'    : $('#cont_email').val(),
-                'subj'    : $('#subj').val(),
-                'txtdetail'    : $('#txtdetail').val()
+            url: 'contact',
+            data: {
+                'type': 'contact',
+                'name': $('#name').val(),
+                'company': $('#company').val(),
+                'addr': $('#addr').val(),
+                'tel': $('#tel').val(),
+                'email': $('#cont_email').val(),
+                'subj': $('#subj').val(),
+                'txtdetail': $('#txtdetail').val()
             },
-            dataType : 'json',
-            type : 'post',
-            error : function(XMLHttpRequest, textStatus, errorThrown) {
+            dataType: 'json',
+            type: 'post',
+            error: function(XMLHttpRequest, textStatus, errorThrown) {
                 alert('Error');
             },
-            success : function (data){
+            success: function(data) {
                 $.mobile.loading('hide');
                 alert('ส่งอีเมลล์เสร็จสมบูรณ์!');
                 $('#name').val("");
@@ -221,37 +211,37 @@ function sendding(sel){
             }
         });
     }
-    
-    if(sel == "quotation"){
+
+    if (sel == "quotation") {
         var checkbox_val = [];
-        if($('.checkbox:checked').val() != undefined){
-            for(var i=1; i<6;i++){
-                if($('input[name="checkbox-'+i+'"]:checked').val() != undefined){
-                    checkbox_val.push($('input[name="checkbox-'+i+'"]:checked').val());
+        if ($('.checkbox:checked').val() != undefined) {
+            for (var i = 1; i < 6; i++) {
+                if ($('input[name="checkbox-' + i + '"]:checked').val() != undefined) {
+                    checkbox_val.push($('input[name="checkbox-' + i + '"]:checked').val());
                 }
             }
         }
         $.ajax({
-            url : 'contact',
-            data : {
-                'type' : 'quotation',
-                'pname' : $('#prename_quotation').val(),
-                'name' : $('#name_quotation').val(),
-                'lname' : $('#lastname_quotation').val(),
-                'tel'    : $('#tel_quotation').val(),
-                'email'    : $('#email_quotation').val(),
-                'contacttype'    : $('input[name="radio-choice-b"]:checked').val(),
-                'services'    : checkbox_val ,
-                'origin' : $('#origin_quotation').val(),
-                'destination' : $('#destination_quotation').val(),
-                'comment' : $('#comment_quotation').val()
+            url: 'contact',
+            data: {
+                'type': 'quotation',
+                'pname': $('#prename_quotation').val(),
+                'name': $('#name_quotation').val(),
+                'lname': $('#lastname_quotation').val(),
+                'tel': $('#tel_quotation').val(),
+                'email': $('#email_quotation').val(),
+                'contacttype': $('input[name="radio-choice-b"]:checked').val(),
+                'services': checkbox_val,
+                'origin': $('#origin_quotation').val(),
+                'destination': $('#destination_quotation').val(),
+                'comment': $('#comment_quotation').val()
             },
-            dataType : 'json',
-            type : 'post',
-            error : function(XMLHttpRequest, textStatus, errorThrown) {
+            dataType: 'json',
+            type: 'post',
+            error: function(XMLHttpRequest, textStatus, errorThrown) {
                 alert('Error');
             },
-            success : function (data){
+            success: function(data) {
                 $.mobile.loading('hide');
                 alert('ส่งอีเมลล์เสร็จสมบูรณ์!');
                 $('#prename_quotation').val("");
@@ -265,23 +255,23 @@ function sendding(sel){
             }
         });
     }
-    
-    if(sel == "comment"){
+
+    if (sel == "comment") {
         $.ajax({
-            url : 'contact',
-            data : {
-                'type' : 'comment',
-                'name' : $('#name_comment').val(),
-                'tel' : $('#tel_comment').val(),
-                'email'    : $('#email_comment').val(),
-                'comment'    : $('#comment_comments').val()
+            url: 'contact',
+            data: {
+                'type': 'comment',
+                'name': $('#name_comment').val(),
+                'tel': $('#tel_comment').val(),
+                'email': $('#email_comment').val(),
+                'comment': $('#comment_comments').val()
             },
-            dataType : 'json',
-            type : 'post',
-            error : function(XMLHttpRequest, textStatus, errorThrown) {
+            dataType: 'json',
+            type: 'post',
+            error: function(XMLHttpRequest, textStatus, errorThrown) {
                 alert('Error');
             },
-            success : function (data){
+            success: function(data) {
                 $.mobile.loading('hide');
                 alert('ส่งอีเมลล์เสร็จสมบูรณ์!');
                 $('#name_comment').val("");
@@ -291,6 +281,6 @@ function sendding(sel){
             }
         });
     }
-    
+
 }
-    
+

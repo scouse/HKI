@@ -34,10 +34,10 @@
                                 </p>
                             </div>
                             <div class="container-image">
-                                <img src="../images/container-image.png"/>
+                                <img src="images/container-image.png"/>
                             </div>
                             <div class="container2-image">
-                                <img src="../images/container2-image.png"/>
+                                <img src="images/container2-image.png"/>
                             </div>
                             <div class="vision" id="vision2"SS>
                                 <h4>Vision</h4>

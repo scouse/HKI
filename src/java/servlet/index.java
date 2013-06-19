@@ -64,10 +64,12 @@ public class index extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        HttpSession session = request.getSession(true);
         String page = "frmOfindex.jsp";
-        RequestDispatcher view = request.getRequestDispatcher(page);
+        String en = "";
+        if ("en".equals(request.getParameter("lang"))) {
+            en = "en/";
+        }
+        RequestDispatcher view = request.getRequestDispatcher(en + page);
         view.forward(request, response);
     }
 
@@ -83,7 +85,6 @@ public class index extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        HttpSession session = request.getSession(true);
         String page = "frmOfindex.jsp";
         RequestDispatcher view = request.getRequestDispatcher(page);
         view.forward(request, response);

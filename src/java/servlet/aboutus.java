@@ -38,13 +38,13 @@ public class aboutus extends HttpServlet {
              */
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet aboutus</title>");            
+            out.println("<title>Servlet aboutus</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet aboutus at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
-        } finally {            
+        } finally {
             out.close();
         }
     }
@@ -62,9 +62,13 @@ public class aboutus extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-            String page = "frmOfaboutus.jsp";
-            RequestDispatcher view = request.getRequestDispatcher(page);
-            view.forward(request,response);
+        String page = "frmOfaboutus.jsp";
+        String en = "";
+        if ("en".equals(request.getParameter("lang"))) {
+            en = "en/";
+        }
+        RequestDispatcher view = request.getRequestDispatcher(en + page);
+        view.forward(request, response);
     }
 
     /**

@@ -32,7 +32,7 @@
                                 <p>- If you would like to pach some items your self, we will provide the packing materials and cardboard cartons for you.</p>
                             </div>
                             <div class="services-image">
-                                <img src="../images/services1.png"/>
+                                <img src="images/services1.png"/>
                             </div>
                             <div class="services-detail">
                                 <h4>Process of Packaging.</h4>
@@ -62,14 +62,14 @@
                             </div>
                             <br/><br/><br/>
                             <div class="services2-image">
-                                <img src="../images/services2.png"/>
+                                <img src="images/services2.png"/>
                             </div>
                             <div class="services2-image">
-                                <img src="../images/services3.png"/>
+                                <img src="images/services3.png"/>
                             </div>
                             <div class="block2"></div>
                             <div class="services-image">
-                                <img src="../images/services4.png"/>
+                                <img src="images/services4.png"/>
                             </div>
                             <div class="services2" id="servicesfourth">
                                 <h4>Warehouse storage</h4>

@@ -38,13 +38,13 @@ public class gallery extends HttpServlet {
              */
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet gallery</title>");            
+            out.println("<title>Servlet gallery</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet gallery at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
-        } finally {            
+        } finally {
             out.close();
         }
     }
@@ -62,9 +62,13 @@ public class gallery extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-            String page = "frmOfgallery.jsp";
-            RequestDispatcher view = request.getRequestDispatcher(page);
-            view.forward(request,response);
+        String page = "frmOfgallery.jsp";
+        String en = "";
+        if ("en".equals(request.getParameter("lang"))) {
+            en = "en/";
+        }
+        RequestDispatcher view = request.getRequestDispatcher(en + page);
+        view.forward(request, response);
     }
 
     /**

@@ -68,7 +68,11 @@ public class contact extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String page = "frmOfcontact.jsp";
-        RequestDispatcher view = request.getRequestDispatcher(page);
+        String en = "";
+        if ("en".equals(request.getParameter("lang"))) {
+            en = "en/";
+        }
+        RequestDispatcher view = request.getRequestDispatcher(en + page);
         view.forward(request, response);
     }
 

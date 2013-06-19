@@ -23,15 +23,6 @@ window.onload = function(){
     services();
 }
 
-function language(){
-    $('#en').click(function(){
-        var url = window.location.search;
-        window.location = '';
-        window.location = '/HKI/en/services'+url;
-        
-    });
-}
-
 function services(){
     var query = window.location.search.substring(1);
     if(query === "second"){

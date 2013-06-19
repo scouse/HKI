@@ -31,12 +31,12 @@
                                 <p>originated in Thailand in excess of 30 years is dedicated to delivering the highest level of logistics professionalism and is committed to 
                                 quality service and customer satisfaction to this extent, the company  strives to be a collaborative bussiness partner.</p>
                             </div>
-                            <div class="advertbox2"><img src="../images/about.png"/></div>
+                            <div class="advertbox2"><img src="images/about.png"/></div>
                         </div>
                         <div class="service">
                             <div class="h-service"><h3>&nbsp;&nbsp;Our Services</h3></div>
                             <div class="span3 featurefirst">
-                                <div class="img_box"><img src="../images/img_box1.png"/></div>
+                                <div class="img_box"><img src="images/img_box1.png"/></div>
                                 <div class="text">
                                     <h6>Free!! Services</h6>
                                     <p>- Free!! Consultation</p>
@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                             <div class="span3 feature">
-                                <div class="img_box"><img src="../images/img_box2.png"/></div>
+                                <div class="img_box"><img src="images/img_box2.png"/></div>
                                 <div class="text">
                                     <h6>Relocations Services</h6>
                                     <p>- Internation moving</p>
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="span3 featurelast">
-                                <div class="img_box"><img src="../images/img_box3.png"/></div>
+                                <div class="img_box"><img src="images/img_box3.png"/></div>
                                 <div class="text">
                                     <h6>Document for clearing shipemnt.</h6>
                                     <p>- Original passport</p>

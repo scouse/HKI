@@ -20,19 +20,13 @@ IncludeCSS('css/aboutus.css');
 window.onload = function(){
     aboutus();
     language();
-}
+};
+
 function aboutus(){
-    var query = window.location.search.substring(1);
-    if(query === "vision"){
+    var query = window.location.search.substring(1).split("&");
+    if(query[0] === "vision"){
         setTimeout(function(){
             $('#vision2')[0].scrollIntoView(true);
         }, 100);
     }
-}
-function language(){
-    $('#en').click(function(){
-        var url = window.location.search;
-        window.location = '';
-        window.location = '/HKI/en/aboutus'+url;
-    });
 }

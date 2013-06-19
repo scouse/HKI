@@ -27,29 +27,29 @@
                         <div class="container">
                             <div class="gallery">Gallery</div>
                             <div class="container-image">
-                                <a class="fancybox" rel="gallery1" href="../images/gallery/1_b.jpg" title="">
-                                    <img src="../images/gallery/1_s.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="images/gallery/1_b.jpg" title="">
+                                    <img src="images/gallery/1_s.jpg" alt="" />
                                 </a>
-                                <a class="fancybox" rel="gallery1" href="../images/gallery/2_b.jpg" title="">
-                                    <img src="../images/gallery/2_s.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="images/gallery/2_b.jpg" title="">
+                                    <img src="images/gallery/2_s.jpg" alt="" />
                                 </a>
-                                <a class="fancybox" rel="gallery1" href="../images/gallery/3_b.jpg" title="">
-                                    <img src="../images/gallery/3_s.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="images/gallery/3_b.jpg" title="">
+                                    <img src="images/gallery/3_s.jpg" alt="" />
                                 </a>
-                                <a class="fancybox" rel="gallery1" href="../images/gallery/4_b.jpg" title="">
-                                    <img src="../images/gallery/4_s.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="images/gallery/4_b.jpg" title="">
+                                    <img src="images/gallery/4_s.jpg" alt="" />
                                 </a>
-                                <a class="fancybox" rel="gallery1" href="../images/gallery/1_b.jpg" title="">
-                                    <img src="../images/gallery/1_s.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="images/gallery/1_b.jpg" title="">
+                                    <img src="images/gallery/1_s.jpg" alt="" />
                                 </a>
-                                <a class="fancybox" rel="gallery1" href="../images/gallery/2_b.jpg" title="">
-                                    <img src="../images/gallery/2_s.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="images/gallery/2_b.jpg" title="">
+                                    <img src="images/gallery/2_s.jpg" alt="" />
                                 </a>
-                                <a class="fancybox" rel="gallery1" href="../images/gallery/3_b.jpg" title="">
-                                    <img src="../images/gallery/3_s.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="images/gallery/3_b.jpg" title="">
+                                    <img src="images/gallery/3_s.jpg" alt="" />
                                 </a>
-                                <a class="fancybox" rel="gallery1" href="../images/gallery/4_b.jpg" title="">
-                                    <img src="../images/gallery/4_s.jpg" alt="" />
+                                <a class="fancybox" rel="gallery1" href="images/gallery/4_b.jpg" title="">
+                                    <img src="images/gallery/4_s.jpg" alt="" />
                                 </a>
                             </div>
                         </div>

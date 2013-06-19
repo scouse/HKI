@@ -27,14 +27,6 @@ window.onload = function(){
     fancybox();
 }
 
-function language(){
-    $('#en').click(function(){
-        var url = window.location.search;
-        window.location = '';
-        window.location = '/HKI/en/gallery'+url;
-    });
-}
-
 function fancybox(){
     $(".fancybox").fancybox({
 		openEffect	: 'none',
