@@ -28,29 +28,29 @@
 </div>
 <div class="frmcolL2">
     <div class="box5px"></div>
-    <div class="headlogin">&nbsp;&nbsp;&nbsp;Our Service</div>
-    <div class="ui-grid-b login">
-        <div class="ui-block-a login"></div>
-        <div class="ui-block-b login">
+    <div class="headservices">&nbsp;&nbsp;&nbsp;Our Service</div>
+    <div class="ui-grid-b services">
+        <div class="ui-block-a services"></div>
+        <div class="ui-block-b services">
             <div class="box5px"></div>
             <div class="box5px"></div>
-            <div class="service-CL"><a href="services?first" rel="external">&nbsp;- Domestic and International household goods,Relocation</a></div>
-            <div class="service-CL"><a href="services?second" rel="external">&nbsp;- Industrial machinery moving and crating</a></div>
-            <div class="service-CL"><a href="services?third" rel="external">&nbsp;- Warehouse storage</a></div>
-            <div class="service-CL"><a href="services?fourth" rel="external">&nbsp;- Exhibition handling service</a></div>
+            <div class="service-CL"><a href="services?lang=en" rel="external">&nbsp;- Domestic and International household goods,Relocation</a></div>
+            <div class="service-CL"><a href="services?industrial&lang=en" rel="external">&nbsp;- Industrial machinery moving and crating</a></div>
+            <div class="service-CL"><a href="services?warehouse&lang=en" rel="external">&nbsp;- Warehouse storage</a></div>
+            <div class="service-CL"><a href="services?exhibition&lang=en" rel="external">&nbsp;- Exhibition handling service</a></div>
             <div class="box5px"></div>
         </div>
-        <div class="ui-block-c login"></div>
+        <div class="ui-block-c services"></div>
     </div>
     <div class="box5px"></div>
     <div class="box5px"></div>
 </div>
 <div class="frmcolL3">
     <div class="box5px"></div>
-    <div class="headlogin">&nbsp;&nbsp;&nbsp;Newsletter</div>
-    <div class="ui-grid-b login">
-        <div class="ui-block-a login"></div>
-        <div class="ui-block-b login">
+    <div class="headnewsletter">&nbsp;&nbsp;&nbsp;Newsletter</div>
+    <div class="ui-grid-b newslet">
+        <div class="ui-block-a newslet"></div>
+        <div class="ui-block-b newslet">
             <div class="frmemail">
             <div class="text-email">Fill in your E-Mail</div>
                 <input type="text" id="cus_email" placeholder="E-Mail" value="" aria-required="1" placeholder aria-label="First Name">
@@ -59,7 +59,7 @@
                 <input type="button" id="receive" value="Receive" data-theme="b" data-mini="true">
             </div>
         </div>
-        <div class="ui-block-c login"></div>
+        <div class="ui-block-c newslet"></div>
     </div>
     <div class="box5px"></div>
     <div class="box5px"></div>
