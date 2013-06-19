@@ -1,10 +1,10 @@
 function IncludeJavaScript(jsFile) {
     document.write('<script type="text/javascript" src="' + jsFile
-        + '"></script>');
+            + '"></script>');
 }
 function IncludeCSS(cssFile) {
     document.write('<link rel="stylesheet" href="' + cssFile
-        + '" type="text/css" media="all">');
+            + '" type="text/css" media="all">');
 }
 IncludeJavaScript('js/jquery-1.8.3.min.js');
 IncludeJavaScript('js/jquery.mobile-1.3.0.js');
@@ -18,30 +18,27 @@ IncludeCSS('css/jquery.nplugins-0.0.1.css');
 IncludeCSS('css/style.css');
 IncludeCSS('css/services.css');
 
-window.onload = function(){
+window.onload = function() {
     language();
     services();
-}
+};
 
-function services(){
-    var query = window.location.search.substring(1);
-    if(query === "second"){
-        setTimeout(function(){
+function services() {
+    var query = window.location.search.substring(1).split("&");
+    if (query[0] === "office") {
+        setTimeout(function() {
             $('#servicessecond')[0].scrollIntoView(true);
         }, 100);
-    }
-    if(query === "third"){
-        setTimeout(function(){
+    } else if (query[0] === "industrial") {
+        setTimeout(function() {
             $('#servicesthird')[0].scrollIntoView(true);
         }, 100);
-    }
-    if(query === "fourth"){
-        setTimeout(function(){
+    } else if (query[0] === "warehouse") {
+        setTimeout(function() {
             $('#servicesfourth')[0].scrollIntoView(true);
         }, 100);
-    }
-    if(query === "fifth"){
-        setTimeout(function(){
+    } else if (query[0] === "exhibition") {
+        setTimeout(function() {
             $('#servicesfifth')[0].scrollIntoView(true);
         }, 100);
     }

@@ -5,4 +5,4 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<h6> Copyright@2013 , HKI WorldWide Movers Co.,Ltd.All right Reversed.<br /> Powered by HPCNET Group</h6>
+<h6> Copyright@2013 , HKI Movers And Logistics Co.,Ltd.All right Reversed.<br /> Powered by HPCNET Group</h6>

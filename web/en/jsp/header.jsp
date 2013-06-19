@@ -20,10 +20,10 @@
     <li class="topmenu"><a class="pressedservice" href="" onclick="false" >SERVICES</a>
         <ul class="submenu">
             <li class="subfirst"><a href="services?lang=en" rel="external">Domestic and International household goods , Relocation</a></li>
-            <li class="sub"><a href="services?second&lang=en" rel="external">Office and factory movers</a></li>
-            <li class="sub"><a href="services?third&lang=en" rel="external">Industrial machinery moving and crating </a></li>
-            <li class="sub"><a href="services?fourth&lang=en" rel="external">Warehouse storage</a></li>
-            <li class="sublast"><a href="services?fifth&lang=en" rel="external">Exhibition handling service.</a></li>
+            <li class="sub"><a href="services?office&lang=en" rel="external">Office and factory movers</a></li>
+            <li class="sub"><a href="services?industrial&lang=en" rel="external">Industrial machinery moving and crating </a></li>
+            <li class="sub"><a href="services?warehouse&lang=en" rel="external">Warehouse storage</a></li>
+            <li class="sublast"><a href="services?exhibition&lang=en" rel="external">Exhibition handling service.</a></li>
         </ul>
     </li>
     <li class="topmenu"><a class="pressedindex" href="#">|</a></li>
